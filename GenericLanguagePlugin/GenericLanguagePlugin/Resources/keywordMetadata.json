@@ -1,0 +1,8 @@
+﻿{
+  
+    "excludedWords": [
+
+    ],
+    "regex": "[^a-zA-Z\\d\\s]"
+  
+}
