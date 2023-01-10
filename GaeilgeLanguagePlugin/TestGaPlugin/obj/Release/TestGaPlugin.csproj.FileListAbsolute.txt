@@ -1,0 +1,2 @@
+Y:\Workbench\brunil\GitHub\CSOIreland\PxLanguagePlugins\GaeilgeLanguagePlugin\TestGaPlugin\obj\Release\TestGaPlugin.csproj.AssemblyReference.cache
+Y:\Workbench\brunil\GitHub\CSOIreland\PxLanguagePlugins\GaeilgeLanguagePlugin\TestGaPlugin\obj\Release\TestGaPlugin.csproj.CoreCompileInputs.cache
