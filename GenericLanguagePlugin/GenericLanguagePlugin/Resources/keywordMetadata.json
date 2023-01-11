@@ -1,8 +1,9 @@
 ﻿{
-  
-    "excludedWords": [
 
-    ],
-    "regex": "[^a-zA-Z\\d\\s]"
-  
+  "excludedWords": [
+
+  ],
+  "doNotAmend": [ "mean", "state" ],
+  "regex": "[^a-zA-Z\\d\\s]"
+
 }

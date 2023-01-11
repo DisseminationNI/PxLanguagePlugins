@@ -8,10 +8,13 @@ namespace GenericLanguagePlugin
 {
     public interface ILanguagePlugin
     {
-        string LngIsoCode { get; }
+        string LngIsoCode { get; set; }
+        bool IsLive { get; set; }
         dynamic GetLabelValues();
         string Sanitize(string words);
         string Singularize(string word);
         List<string> GetSynonyms(string word);
+        IEnumerable<string> GetExcludedTerms();
+        IEnumerable<string> GetDoNotAmend();
     }
 }

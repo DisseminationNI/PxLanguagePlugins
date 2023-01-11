@@ -10,5 +10,6 @@ namespace GenericLanguagePlugin
     {
         public string regex { get; set; }
         public IList<string> excludedWords { get; set; }
+        public IList<string> doNotAmend { get; set; }
     }
 }
