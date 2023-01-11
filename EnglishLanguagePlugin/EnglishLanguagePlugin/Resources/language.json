@@ -18,6 +18,8 @@
     "workflow": "The Table &quot;{0}&quot; has a workflow in progress. Please wait for the workflow to complete before uploading a new version.",
     "image": "An image could not be created from the resource at {0}",
     "throttled": "The request has been refused because you have exceeded the fair usage policy.",
+    "throttled-anonymous": "You may increase your limit by logging on to PxStat.",
+    "throttled-m2m":  "You may increase your limit by appending your user token to the query.",
     "notification": "The notification cannot be sent because the email address cannot be found.",
     "parsing": {
       "parse-error": "Parse Error",
@@ -31,6 +33,7 @@
     },
     "dataset": {
       "limit": "You are attempting to download {0} data cells in {1}. This exceeds the maximum of {2} data cells you can download in {1}."
+      
     },
     "geomap": {
       "json-parse": "Can't create GeoJson map",
