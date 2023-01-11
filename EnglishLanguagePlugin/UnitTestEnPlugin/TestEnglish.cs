@@ -55,7 +55,7 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SanitizeBasicNoSanitize()
         {
-            EnPlugin elp = new EnPlugin ();
+            Language elp = new Language ();
             string testWordInput = "this is a test";
             string testWordsResult = elp.Sanitize (testWordInput);
             Assert.IsTrue(testWordsResult.Equals(testWordInput));
@@ -64,7 +64,7 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SanitizeBasicRemoveCurlyBraces()
         {
-            EnPlugin elp = new EnPlugin();
+            Language elp = new Language();
             string testWordInput = "this is{a}test";
             string testWordsResult = elp.Sanitize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("this is a test"));
@@ -73,7 +73,7 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SanitizeBasicRemoveHtmlStuff()
         {
-            EnPlugin elp = new EnPlugin();
+            Language elp = new Language();
             string testWordInput = "this is<a>test";
             string testWordsResult = elp.Sanitize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("this is a test"));
@@ -82,7 +82,7 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SingularizeBasic()
         {
-            EnPlugin elp = new EnPlugin();
+            Language elp = new Language();
             string testWordInput = "dogs";
             string testWordsResult = elp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("dog"));
@@ -91,7 +91,7 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SingularizeLessBasic()
         {
-            EnPlugin elp = new EnPlugin();
+            Language elp = new Language();
             string testWordInput = "children";
             string testWordsResult = elp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("child"));
@@ -100,7 +100,7 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SingularizeNotFound()
         {
-            EnPlugin elp = new EnPlugin();
+            Language elp = new Language();
             string testWordInput = "xxxx";
             string testWordsResult = elp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("xxxx"));
@@ -109,7 +109,7 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void GetLabelsBasic()
         {
-            EnPlugin elp = new EnPlugin();
+            Language elp = new Language();
             var result = elp.GetLabelValues();
             Assert.IsTrue(result!=null);
         }
@@ -117,7 +117,7 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SynonymBasic()
         {
-            EnPlugin elp = new EnPlugin();
+            Language elp = new Language();
             var result = elp.GetSynonyms ("car");
             Assert.IsTrue(result.Contains("auto"));
         }
@@ -125,7 +125,7 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SynonymNotFound()
         {
-            EnPlugin elp = new EnPlugin();
+            Language elp = new Language();
             var result = elp.GetSynonyms("carxxx");
             Assert.IsTrue(result.Count()==0);
         }
@@ -133,10 +133,19 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void ExcludedTerms()
         {
-            EnPlugin elp = new EnPlugin();
+            Language elp = new Language();
             var result = elp.GetExcludedTerms();
             Assert.IsTrue(result.Contains("which"));
             Assert.IsTrue(result.Contains("and"));
+        }
+
+        [TestMethod]
+        public void DoNotAmend()
+        {
+            Language elp = new Language();
+            var result = elp.GetDoNotAmend();
+            Assert.IsTrue(result.Contains("mean"));
+            Assert.IsTrue(result.Contains("state"));
         }
 
         
