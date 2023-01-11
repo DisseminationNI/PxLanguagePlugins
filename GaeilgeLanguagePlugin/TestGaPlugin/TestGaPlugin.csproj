@@ -57,7 +57,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GaeilgePlugin\GaeilgeLanguagePlugin.csproj">
+    <ProjectReference Include="..\GaeilgeLanguagePlugin\GaeilgeLanguagePlugin.csproj">
       <Project>{8dc0dfdf-42ca-4992-a669-1a7ae73d561c}</Project>
       <Name>GaeilgeLanguagePlugin</Name>
     </ProjectReference>

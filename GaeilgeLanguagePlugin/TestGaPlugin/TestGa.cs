@@ -1,7 +1,8 @@
-﻿using GaeilgePlugin;
+﻿
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 using System;
+using GaeilgePlugin;
 
 namespace TestGaPlugin
 {
