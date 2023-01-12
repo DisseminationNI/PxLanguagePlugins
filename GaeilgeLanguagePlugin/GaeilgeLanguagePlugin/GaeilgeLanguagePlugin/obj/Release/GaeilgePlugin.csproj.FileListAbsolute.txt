@@ -1,0 +1,8 @@
+D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\bin\Release\GaeilgePlugin.dll
+D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\bin\Release\GaeilgePlugin.pdb
+D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\obj\Release\GaeilgePlugin.csproj.AssemblyReference.cache
+D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\obj\Release\GaeilgePlugin.Properties.Resources.resources
+D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\obj\Release\GaeilgePlugin.csproj.GenerateResource.cache
+D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\obj\Release\GaeilgePlugin.csproj.CoreCompileInputs.cache
+D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\obj\Release\GaeilgePlugin.dll
+D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\obj\Release\GaeilgePlugin.pdb
