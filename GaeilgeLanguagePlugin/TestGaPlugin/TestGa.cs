@@ -1,8 +1,7 @@
-﻿
+﻿using GaeilgePlugin;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 using System;
-using GaeilgePlugin;
 
 namespace TestGaPlugin
 {
@@ -29,7 +28,7 @@ namespace TestGaPlugin
         [TestMethod]
         public void TestGetLabelValuesBasic()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             dynamic result = glp.GetLabelValues();
             Assert.IsFalse(result.Equals(null));
         }
@@ -38,7 +37,7 @@ namespace TestGaPlugin
         [TestMethod]
         public void SanitizeBasicNoSanitize()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             string testWordInput = "Is teist é seo";
             string testWordsResult = glp.Sanitize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals(testWordInput));
@@ -47,7 +46,7 @@ namespace TestGaPlugin
         [TestMethod]
         public void SanitizeBasicRemoveCurlyBraces()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             string testWordInput = "Is teist {é} seo";
             string testWordsResult = glp.Sanitize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("Is teist é seo"));
@@ -56,7 +55,7 @@ namespace TestGaPlugin
         [TestMethod]
         public void SanitizeBasicRemoveHtmlStuff()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             string testWordInput = "Is teist <é> seo";
             string testWordsResult = glp.Sanitize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("Is teist é seo"));
@@ -65,7 +64,7 @@ namespace TestGaPlugin
         [TestMethod]
         public void SingularizeBasic()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             string testWordInput = "tithe";
             string testWordsResult = glp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("teach"));
@@ -74,7 +73,7 @@ namespace TestGaPlugin
         [TestMethod]
         public void SingularizeLenition()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             string testWordInput = "dteach";
             string testWordsResult = glp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("teach"));
@@ -83,7 +82,7 @@ namespace TestGaPlugin
         [TestMethod]
         public void SingularizeAspiration()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             string testWordInput = "theach";
             string testWordsResult = glp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("teach"));
@@ -92,7 +91,7 @@ namespace TestGaPlugin
         [TestMethod]
         public void SingularizeIrregular()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             string testWordInput = "mná";
             string testWordsResult = glp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("bean"));
@@ -101,7 +100,7 @@ namespace TestGaPlugin
         [TestMethod]
         public void SingularizeNotFound()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             string testWordInput = "xxxx";
             string testWordsResult = glp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("xxxx"));
@@ -110,7 +109,7 @@ namespace TestGaPlugin
         [TestMethod]
         public void GetLabelsBasic()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             var result = glp.GetLabelValues();
             Assert.IsTrue(result != null);
         }
@@ -118,7 +117,7 @@ namespace TestGaPlugin
         [TestMethod]
         public void SynonymBasic()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             var result = glp.GetSynonyms("sochaí");
             Assert.IsTrue(result.Contains("slua"));
         }
@@ -126,7 +125,7 @@ namespace TestGaPlugin
         [TestMethod]
         public void SynonymNotFound()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             var result = glp.GetSynonyms("xxxxx");
             Assert.IsTrue(result.Count() == 0);
         }
@@ -134,10 +133,18 @@ namespace TestGaPlugin
         [TestMethod]
         public void ExcludedTerms()
         {
-            GaPlugin glp = new GaPlugin();
+            Language glp = new Language();
             var result = glp.GetExcludedTerms();
             Assert.IsTrue(result.Contains("agus"));
             Assert.IsTrue(result.Contains("do"));
+        }
+        [TestMethod]
+        public void DoNotAmend()
+        {
+            Language glp = new Language();
+            var result = glp.GetDoNotAmend();
+            Assert.IsTrue(result.Contains("méid"));
+            Assert.IsTrue(result.Contains("mhéid"));
         }
     }
 }
