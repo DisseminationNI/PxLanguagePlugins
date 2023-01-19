@@ -19,7 +19,7 @@
     "image": "An image could not be created from the resource at {0}",
     "throttled": "The request has been refused because you have exceeded the fair usage policy.",
     "throttled-anonymous": "You may increase your limit by logging on to PxStat.",
-    "throttled-m2m":  "You may increase your limit by appending your user token to the query.",
+    "throttled-m2m":  "You may increase your limit by appending your user token to the query header.",
     "notification": "The notification cannot be sent because the email address cannot be found.",
     "parsing": {
       "parse-error": "Parse Error",
