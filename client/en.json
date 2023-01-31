@@ -1,6 +1,5 @@
 {
 	"static": {
-		"test": "Test value",
 		"2fa": "2FA",
 		"2fa-code": "2FA Code",
 		"2fa-info": "The <b>2FA</b> (Two-Factor Authentication) is a security feature to make the login safer. This requires an Authenticator App to be installed on a Smart Device such as a smartphone or tablet.<br><br>Popular Authenticator Apps are <b>Google Authenticator</b> and <b>Microsoft Authenticator</b> which are free to use.",
