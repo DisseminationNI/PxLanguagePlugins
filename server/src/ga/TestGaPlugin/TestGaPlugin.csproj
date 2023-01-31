@@ -57,9 +57,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GaeilgeLanguagePlugin\GaeilgeLanguagePlugin.csproj">
+    <ProjectReference Include="..\PxLanguagePlugin\PxLanguagePlugin.csproj">
       <Project>{8dc0dfdf-42ca-4992-a669-1a7ae73d561c}</Project>
-      <Name>GaeilgeLanguagePlugin</Name>
+      <Name>PxLanguagePlugin</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

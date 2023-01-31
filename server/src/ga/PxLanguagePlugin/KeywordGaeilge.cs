@@ -19,6 +19,7 @@ namespace GaeilgePlugin
                 grammar = JsonConvert.DeserializeObject<Grammar>(grammarFile, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
             }
         }
+
         internal static string RemoveEclipsis(string word)
         {
             initiateGrammarFile();

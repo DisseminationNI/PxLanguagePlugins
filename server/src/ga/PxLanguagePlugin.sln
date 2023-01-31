@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGaPlugin", "TestGaPlugin\TestGaPlugin.csproj", "{22BCC526-6AF1-4BA9-B897-9982172DD8E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaeilgeLanguagePlugin", "GaeilgeLanguagePlugin\GaeilgeLanguagePlugin.csproj", "{8DC0DFDF-42CA-4992-A669-1A7AE73D561C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PxLanguagePlugin", "PxLanguagePlugin\PxLanguagePlugin.csproj", "{8DC0DFDF-42CA-4992-A669-1A7AE73D561C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
