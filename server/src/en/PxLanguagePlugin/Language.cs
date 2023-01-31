@@ -6,7 +6,7 @@ using System.Data.Entity.Design.PluralizationServices;
 using System.Globalization;
 
 
-namespace EnglishLanguagePlugin
+namespace PxLanguagePlugin
 {
     public class Language : ILanguagePlugin
     {

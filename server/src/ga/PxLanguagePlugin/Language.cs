@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace GaeilgePlugin 
+namespace PxLanguagePlugin 
 {
     public class Language: ILanguagePlugin
     {

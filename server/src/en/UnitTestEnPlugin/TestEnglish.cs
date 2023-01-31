@@ -1,4 +1,4 @@
-﻿using EnglishLanguagePlugin;
+﻿using PxLanguagePlugin;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 

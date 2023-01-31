@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GaeilgePlugin.Properties {
+namespace PxLanguagePlugin.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace GaeilgePlugin.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GaeilgePlugin.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PxLanguagePlugin.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -71,7 +71,7 @@ namespace GaeilgePlugin.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to {
-        ///	&quot;inflection&quot;: {
+        ///	
         ///		&quot;plural&quot;: [
         ///			&quot;a&quot;,
         ///			&quot;í&quot;,
@@ -112,11 +112,11 @@ namespace GaeilgePlugin.Properties {
         ///			&quot;sh&quot;,
         ///			&quot;th&quot;
         ///		]
-        ///	},
-        ///	&quot;irregular&quot;: {
-        ///		&quot;plural&quot;: {
+        ///	,
+        ///	&quot;irregularPlural&quot;: {
         ///			&quot;mná&quot;: &quot;bean&quot;,
-        ///			&quot;deirfi [rest of string was truncated]&quot;;.
+        ///			&quot;deirfiúracha&quot;: &quot;deirfiúr&quot;,
+        ///			 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string grammar {
             get {
@@ -127,11 +127,47 @@ namespace GaeilgePlugin.Properties {
         /// <summary>
         ///   Looks up a localized string similar to {
         ///
-        ///  &quot;excluded&quot;: {
-        ///    &quot;article&quot;: [ &quot;na&quot;, &quot;an&quot; ],
-        ///    &quot;preposition&quot;: [ &quot;agus&quot;, &quot;ag&quot;, &quot;ar&quot;, &quot;as&quot;, &quot;chun&quot;, &quot;chuig&quot;, &quot;de&quot;, &quot;do&quot;, &quot;den&quot;, &quot;don&quot;, &quot;fara&quot;, &quot;faoi&quot;, &quot;i&quot;, &quot;in&quot;, &quot;idir&quot;, &quot;ionsar&quot;, &quot;le&quot;, &quot;ó&quot;, &quot;roimh&quot;, &quot;trí&quot;, &quot;thar&quot;, &quot;um&quot;, &quot;a&quot;, &quot;dar&quot;, &quot;is&quot;, &quot;gan&quot;, &quot;go&quot;, &quot;godtí&quot;, &quot;go dtí&quot;, &quot;mar&quot;, &quot;os&quot;, &quot;seachas&quot; ],
-        ///    &quot;interrogative&quot;: [ &quot;cé&quot;, &quot;cén&quot;, &quot;cá&quot;, &quot;cad&quot;, &quot;conas&quot;, &quot;cathain&quot;, &quot;bhfuil&quot;, &quot;nach&quot;, &quot;nár&quot;, &quot;ar&quot;, &quot;air&quot; ],
-        ///    &quot;miscellaneous&quot;: [ &quot;méid&quot;, &quot;mhéid&quot;, &quot;faoin&quot;, &quot;is&quot;, &quot;céi....
+        ///  &quot;excludedWords&quot;: [
+        ///    &quot;na&quot;,
+        ///    &quot;an&quot;,
+        ///    &quot;agus&quot;,
+        ///    &quot;ag&quot;,
+        ///    &quot;ar&quot;,
+        ///    &quot;as&quot;,
+        ///    &quot;chun&quot;,
+        ///    &quot;chuig&quot;,
+        ///    &quot;de&quot;,
+        ///    &quot;do&quot;,
+        ///    &quot;den&quot;,
+        ///    &quot;don&quot;,
+        ///    &quot;fara&quot;,
+        ///    &quot;faoi&quot;,
+        ///    &quot;i&quot;,
+        ///    &quot;in&quot;,
+        ///    &quot;idir&quot;,
+        ///    &quot;ionsar&quot;,
+        ///    &quot;le&quot;,
+        ///    &quot;ó&quot;,
+        ///    &quot;roimh&quot;,
+        ///    &quot;trí&quot;,
+        ///    &quot;thar&quot;,
+        ///    &quot;um&quot;,
+        ///    &quot;a&quot;,
+        ///    &quot;dar&quot;,
+        ///    &quot;is&quot;,
+        ///    &quot;gan&quot;,
+        ///    &quot;go&quot;,
+        ///    &quot;godtí&quot;,
+        ///    &quot;go dtí&quot;,
+        ///    &quot;mar&quot;,
+        ///    &quot;os&quot;,
+        ///    &quot;seachas&quot;,
+        ///    &quot;cé&quot;,
+        ///    &quot;cén&quot;,
+        ///    &quot;cá&quot;,
+        ///    &quot;cad&quot;,
+        ///    &quot;conas&quot;,
+        ///    &quot;cathain&quot;, [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string keywordMetadata {
             get {
