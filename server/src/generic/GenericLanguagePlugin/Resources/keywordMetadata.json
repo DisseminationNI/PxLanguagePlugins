@@ -1,9 +1,0 @@
-﻿{
-
-  "excludedWords": [
-
-  ],
-  "doNotAmend": [ "mean", "state" ],
-  "regex": "[^a-zA-Z\\d\\s]"
-
-}
