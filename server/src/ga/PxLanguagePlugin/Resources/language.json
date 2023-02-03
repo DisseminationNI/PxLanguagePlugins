@@ -73,7 +73,39 @@
   },
   "px": {
     "build": {
-      "language": "Ní bhfuarthas an teanga a sonraíodh a chomhad px a tugadh."
+      "language": "Ní bhfuarthas an teanga a sonraíodh a chomhad px a tugadh.",
+      "code-empty": "The code must not be empty",
+      "copyright-empty": "The copyright must not be empty",
+      "no-language-list": "No Language list found in the matrix",
+      "minimum-language": "At least one language must exist",
+      "cell-match": "Actual and expected count of values do not match - actual: {0}",
+      "no-spec-list": "Specifcation list not found",
+      "minimum-spec": "There must be at least 1 spec in the matrix",
+      "language-mismatch": "Mismatch between spec languages and the languages listed in the Languages property",
+      "no-language-property": "Language property value not found in Languages property",
+      "dimension-codes-inconsistent": "Inconsistent dimension codes across specs",
+      "copyright-not-found": "Copyright not found",
+      "invalid-language": "Language code {0} is invalid",
+      "no-spec-title": "No spec title for spec {0}",
+      "no-spec-contents": "No spec Contents field for spec {0}",
+      "dupe-spec-dimension-codes": "Error {0} spec has duplicate dimension codes",
+      "dupe-spec-dimension-values": "Error {0} spec has duplicate dimension values",
+      "time-dimension-count": "Error {0} spec has a wrong time dimension count",
+      "statistic-dimension-count": "Error {0} spec has a wrong statistic dimension count",
+      "classification-dimension-count": "Error {0} spec has a wrong classification dimension count",
+      "dimension-sequence": "Error {0} spec has invalid dimension sequencing",
+      "language-not-exist": "Language {0} is not currently setup in PX",
+      "dimension-error": "Dimension error - see individual message",
+      "no-variables": "No variables found for dimension {0}",
+      "missing-variable": "Missing variable set in dimension {0}",
+      "dimension-no-role": "Dimension {0} has no Role assigned to it",
+      "variable-error": "Variable Error - see individual message",
+      "variable-sequence": "Variable sequencing error for dimension {0}",
+      "dimension-code-empty": "Dimension Code must not be empty",
+      "dimension-value-empty": "Dimension Value must not be empty",
+      "no-geo-url": "A Geo url must be provided when the Geo flag is set",
+      "no-variable-code": "Variable missing a variable code",
+      "no-variable-value": "Variable missing a variable value"
     },
     "duplicate": "Tá tú ar tí leasú nua ar an Tábla &quot;{0}&quot;. An bhfuil tú cinnte?",
     "duplicate-different-group": "Tá tú ar tí leasú nua ar an Tábla &quot;{0}&quot;  a uaslódáil agus an grúpa a athrú ó &quot;{1}&quot; go &quot;{2}&quot;. An bhfuil tú cinnte?",
@@ -93,6 +125,7 @@
     "setting": {
       "axisversion-invalid": "Socrú PX [AXIS-VERSION]: tá &quot;{PropertyValue}&quot; neamhbhailí",
       "language-invalid": "Socrú PX [LANGUAGE]: tá &quot;{PropertyValue}&quot; neamhbhailí.",
+      "language-no-default": "Ní mór an iontráil don teanga {0} a bheith sa chomhad PX",
       "languages-invalid": "Socrú PX [LANGUAGES]: tá &quot;{Language}&quot; neamhbhailí.",
       "source-invalid": "Socrú PX [SOURCE]: tá &quot;{PropertyValue}&quot; neamhbhailí.",
       "sources-invalid": "Socrú PX [SOURCE]: tá &quot;{Source}&quot; neamhbhailí."
@@ -131,7 +164,8 @@
     "no": "Ní hea",
     "pivoted": "Casadh",
     "unpivoted": "Neamh-casadh",
-    "row-limit-exceeded": "Sáraíonn líon na sraitheanna sonraí a iarradh, {0}, an t-uasluach ceadaithe do chomhad XLSX, {1}. Ní mór duit do chuardach a bheachtú chun níos lú sraitheanna a chur ar ais nó formáid eile seachas XLSX a roghnú"
+    "row-limit-exceeded": "Sáraíonn líon na sraitheanna sonraí a iarradh, {0}, an t-uasluach ceadaithe do chomhad XLSX, {1}. Ní mór duit do chuardach a bheachtú chun níos lú sraitheanna a chur ar ais nó formáid eile seachas XLSX a roghnú",
+    "about": "Faoi"
   },
   "default": {
     "classification": "Stát",
@@ -210,7 +244,8 @@
   "label": {
     "date-time": "Dáta/Am",
     "date-format": "24u",
-    "timezone": "Am Áitiúil"
+    "timezone": "Am Áitiúil",
+    "and":  "agus"
   },
   "group_message": {
     "received-by": "Arna fháil ag: {0} agus Úsáideoirí Cumhachtas"
