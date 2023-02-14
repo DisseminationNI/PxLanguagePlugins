@@ -258,7 +258,7 @@
     "date-time": "Date/Time",
     "date-format": "24h",
     "timezone": "Local Time",
-    "and":  "agus"
+    "and":  "and"
   },
   "group_message": {
     "received-by": "Received by: {0} and Power Users"
