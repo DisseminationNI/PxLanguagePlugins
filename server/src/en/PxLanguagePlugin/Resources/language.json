@@ -108,7 +108,8 @@
       "dimension-value-empty": "Dimension Value must not be empty",
       "no-geo-url": "A Geo url must be provided when the Geo flag is set",
       "no-variable-code": "Variable missing a variable code",
-      "no-variable-value": "Variable missing a variable value"
+      "no-variable-value": "Variable missing a variable value",
+	  "no-source-field":"No Source field found for spec {0}"
 
     },
     "duplicate": "You are about to upload a new revision of the existing Table &quot;{0}&quot;. Are you sure?",
