@@ -105,7 +105,8 @@
       "dimension-value-empty": "Ní féidir toise luach a bheith folamh",
       "no-geo-url": "Ní mór url Geo a sholáthar nuair a bhíonn an bhratach Geo socraithe",
       "no-variable-code": "Athróg in easnamh ar chód athróg",
-      "no-variable-value": "Athróg in easnamh ar luach athróg"
+      "no-variable-value": "Athróg in easnamh ar luach athróg",
+	  "no-source-field":"Tá an fhoinse folamh don toise {0}"
     },
     "duplicate": "Tá tú ar tí leasú nua ar an Tábla &quot;{0}&quot;. An bhfuil tú cinnte?",
     "duplicate-different-group": "Tá tú ar tí leasú nua ar an Tábla &quot;{0}&quot;  a uaslódáil agus an grúpa a athrú ó &quot;{1}&quot; go &quot;{2}&quot;. An bhfuil tú cinnte?",
