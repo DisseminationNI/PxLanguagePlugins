@@ -76,7 +76,41 @@
   "px": {
 
     "build": {
-      "language": "The specified language was not found in the supplied px file."
+      "language": "The specified language was not found in the supplied px file.",
+      "code-empty": "The code must not be empty",
+      "copyright-empty": "The copyright must not be empty",
+      "no-language-list": "No Language list found in the matrix",
+      "minimum-language": "At least one language must exist",
+      "cell-match": "Actual and expected count of values do not match - actual: {0}",
+      "no-spec-list": "Specifcation list not found",
+      "minimum-spec": "There must be at least 1 spec in the matrix",
+      "language-mismatch": "Mismatch between spec languages and the languages listed in the Languages property",
+      "no-language-property": "Language property value not found in Languages property",
+      "dimension-codes-inconsistent": "Inconsistent dimension codes across specs",
+      "copyright-not-found": "Copyright not found",
+      "invalid-language": "Language code {0} is invalid",
+      "no-spec-title": "No spec title for spec {0}",
+      "no-spec-contents": "No spec Contents field for spec {0}",
+      "dupe-spec-dimension-codes": "Error {0} spec has duplicate dimension codes",
+      "dupe-spec-dimension-values": "Error {0} spec has duplicate dimension values",
+      "time-dimension-count": "Error {0} spec has a wrong time dimension count",
+      "statistic-dimension-count": "Error {0} spec has a wrong statistic dimension count",
+      "classification-dimension-count": "Error {0} spec has a wrong classification dimension count",
+      "dimension-sequence": "Error {0} spec has invalid dimension sequencing",
+      "language-not-exist": "Language {0} is not currently setup in PX",
+      "dimension-error": "Dimension error - see individual message",
+      "no-variables": "No variables found for dimension {0}",
+      "missing-variable": "Missing variable set in dimension {0}",
+      "dimension-no-role": "Dimension {0} has no Role assigned to it",
+      "variable-error": "Variable Error - see individual message",
+      "variable-sequence": "Variable sequencing error for dimension {0}",
+      "dimension-code-empty": "Dimension Code must not be empty",
+      "dimension-value-empty": "Dimension Value must not be empty",
+      "no-geo-url": "A Geo url must be provided when the Geo flag is set",
+      "no-variable-code": "Variable missing a variable code",
+      "no-variable-value": "Variable missing a variable value",
+	  "no-source-field":"No Source field found for spec {0}"
+
     },
     "duplicate": "You are about to upload a new revision of the existing Table &quot;{0}&quot;. Are you sure?",
     "duplicate-different-group": "You are about to upload a new revision of the existing Table &quot;{0}&quot; and to change the group from &quot;{1}&quot; to &quot;{2}&quot;. Are you sure?",
@@ -97,6 +131,7 @@
     "setting": {
       "axisversion-invalid": "PX Setting [AXIS-VERSION]: &quot;{PropertyValue}&quot; is invalid.",
       "language-invalid": "PX Setting [LANGUAGE]: &quot;{PropertyValue}&quot; is invalid.",
+      "language-no-default": "The PX file must contain an entry for language {0}",
       "languages-invalid": "PX Setting [LANGUAGE] in languages: &quot;{Language}&quot; is invalid.",
       "source-invalid": "PX Setting [SOURCE]: &quot;{PropertyValue}&quot; is invalid.",
       "sources-invalid": "PX Setting [SOURCE]: &quot;{Source}&quot; is invalid."
@@ -137,7 +172,8 @@
     "no": "No",
     "pivoted": "Pivoted",
     "unpivoted": "Unpivoted",
-    "row-limit-exceeded": "The number of data rows requested, {0}, exceeds the maximum allowed value for an XLSX file, {1}. You must either refine your search to return fewer rows or select a format other than XLSX"
+    "row-limit-exceeded": "The number of data rows requested, {0}, exceeds the maximum allowed value for an XLSX file, {1}. You must either refine your search to return fewer rows or select a format other than XLSX",
+    "about" :  "About"
   },
   "default": {
     "classification": "State",
@@ -222,7 +258,8 @@
   "label": {
     "date-time": "Date/Time",
     "date-format": "24h",
-    "timezone": "Local Time"
+    "timezone": "Local Time",
+    "and":  "and"
   },
   "group_message": {
     "received-by": "Received by: {0} and Power Users"

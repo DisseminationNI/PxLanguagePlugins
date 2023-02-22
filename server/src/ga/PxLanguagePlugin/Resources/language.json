@@ -73,7 +73,39 @@
   },
   "px": {
     "build": {
-      "language": "Ní bhfuarthas an teanga a sonraíodh a chomhad px a tugadh."
+      "language": "Ní bhfuarthas an teanga a sonraíodh a chomhad px a tugadh.",
+      "code-empty": "Ní mór an cód gan a bheith folamh",
+      "copyright-empty": "Ní mór an cóiphceart gan a bheith folamh",
+      "no-language-list": "Níor aimsíodh aon liosta teangacha sa mhaitrís",
+      "minimum-language": "Ní mór teanga amháin ar a laghad bheith sa mhaitrís",
+      "cell-match": "Ní hionann comhaireamh na luachanna iarbhír agus ionchais - iarbhír: {0}",
+      "no-spec-list": "Níor aimsíodh liosta na sonraíochtaí",
+      "minimum-spec": "Ní mór sonraíochta amháin ar a laghad bheith sa mhaitrís",
+      "language-mismatch": "Mímheaitseáil idir sainteangacha agus na teangacha a liostaítear san airí teangacha",
+      "no-language-property": "Ní fhaightear luach maoine teanga i maoin Teangacha",
+      "dimension-codes-inconsistent": "Cóid toise neamh-chomhsheasmhach trasna sonraíochtaí",
+      "copyright-not-found": "Níor aimsíodh aon chóiphceart",
+      "invalid-language": "Tá cód teanga {0} neamhbhailí",
+      "no-spec-title": "Níor aimsíodh aon teideal sonraíochta don tsonraíocht {0}",
+      "no-spec-contents": "Níor aimsíodh aon réimse inneachair sonraíochta don tsonraíocht {0}",
+      "dupe-spec-dimension-codes": "Earráid - {0} Tá cóid toise dúblacha ag an tsonraíocht",
+      "dupe-spec-dimension-values": "Earráid - {0} Tá luachanna toise dúblacha sa tsonraíocht",
+      "time-dimension-count": "Earráid - Tá comhaireamh toise ama mícheart ag sonraíocht {0}",
+      "statistic-dimension-count": "Earráid - Tá comhaireamh toise staitistice mícheart ag sonrú {0}",
+      "classification-dimension-count": "Earráid Tá comhaireamh toise an aicmithe mícheart ag sonrú {0}",
+      "dimension-sequence": "Earráid - Tá seicheamh toise neamhbhailí ag sonraíocht {0}",
+      "language-not-exist": "Níl teanga {0} socraithe in PX faoi láthair",
+      "dimension-error": "Earráid toise - féach air teachtaireacht aonair",
+      "no-variables": "Níor aimsíodh aon athróg don toise {0}",
+      "missing-variable": "Athróg in easnamh i toise {0}",
+      "dimension-no-role": "Níl aon Ról sannta do toise {0} dó",
+      "variable-error": "Earráid Athróg - féach teachtaireacht aonair",
+      "variable-sequence": "Earráid seicheamhaithe inathraithe don toise {0}",
+      "dimension-code-empty": "Ní féidir Cód toise a bheith folamh",
+      "dimension-value-empty": "Ní féidir toise luach a bheith folamh",
+      "no-geo-url": "Ní mór url Geo a sholáthar nuair a bhíonn an bhratach Geo socraithe",
+      "no-variable-code": "Athróg in easnamh ar chód athróg",
+      "no-variable-value": "Athróg in easnamh ar luach athróg"
     },
     "duplicate": "Tá tú ar tí leasú nua ar an Tábla &quot;{0}&quot;. An bhfuil tú cinnte?",
     "duplicate-different-group": "Tá tú ar tí leasú nua ar an Tábla &quot;{0}&quot;  a uaslódáil agus an grúpa a athrú ó &quot;{1}&quot; go &quot;{2}&quot;. An bhfuil tú cinnte?",
@@ -93,6 +125,7 @@
     "setting": {
       "axisversion-invalid": "Socrú PX [AXIS-VERSION]: tá &quot;{PropertyValue}&quot; neamhbhailí",
       "language-invalid": "Socrú PX [LANGUAGE]: tá &quot;{PropertyValue}&quot; neamhbhailí.",
+      "language-no-default": "Ní mór an iontráil don teanga {0} a bheith sa chomhad PX",
       "languages-invalid": "Socrú PX [LANGUAGES]: tá &quot;{Language}&quot; neamhbhailí.",
       "source-invalid": "Socrú PX [SOURCE]: tá &quot;{PropertyValue}&quot; neamhbhailí.",
       "sources-invalid": "Socrú PX [SOURCE]: tá &quot;{Source}&quot; neamhbhailí."
@@ -131,7 +164,8 @@
     "no": "Ní hea",
     "pivoted": "Casadh",
     "unpivoted": "Neamh-casadh",
-    "row-limit-exceeded": "Sáraíonn líon na sraitheanna sonraí a iarradh, {0}, an t-uasluach ceadaithe do chomhad XLSX, {1}. Ní mór duit do chuardach a bheachtú chun níos lú sraitheanna a chur ar ais nó formáid eile seachas XLSX a roghnú"
+    "row-limit-exceeded": "Sáraíonn líon na sraitheanna sonraí a iarradh, {0}, an t-uasluach ceadaithe do chomhad XLSX, {1}. Ní mór duit do chuardach a bheachtú chun níos lú sraitheanna a chur ar ais nó formáid eile seachas XLSX a roghnú",
+    "about": "Faoi"
   },
   "default": {
     "classification": "Stát",
@@ -210,7 +244,8 @@
   "label": {
     "date-time": "Dáta/Am",
     "date-format": "24u",
-    "timezone": "Am Áitiúil"
+    "timezone": "Am Áitiúil",
+    "and":  "agus"
   },
   "group_message": {
     "received-by": "Arna fháil ag: {0} agus Úsáideoirí Cumhachtas"
