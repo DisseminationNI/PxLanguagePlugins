@@ -1,8 +1,0 @@
-D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\bin\Debug\GaeilgePlugin.dll
-D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\bin\Debug\GaeilgePlugin.pdb
-D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\obj\Debug\GaeilgePlugin.csproj.AssemblyReference.cache
-D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\obj\Debug\GaeilgePlugin.Properties.Resources.resources
-D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\obj\Debug\GaeilgePlugin.csproj.GenerateResource.cache
-D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\obj\Debug\GaeilgePlugin.csproj.CoreCompileInputs.cache
-D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\obj\Debug\GaeilgePlugin.dll
-D:\Wspace\5.5.5\server\GaeilgePlugin\GaeilgePlugin\obj\Debug\GaeilgePlugin.pdb
