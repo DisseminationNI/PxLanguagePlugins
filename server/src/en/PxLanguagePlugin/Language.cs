@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Data.Entity.Design.PluralizationServices;
 using System.Globalization;
-
+using System.Net;
 
 namespace PxLanguagePlugin
 {
@@ -15,19 +15,29 @@ namespace PxLanguagePlugin
         string ILanguagePlugin.LngIsoCode { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
 
         readonly PluralizationService pluralService;
-        readonly dynamic labelValues;
+        internal dynamic labelValues;
         readonly KeywordMetadata keywordMeta;
         readonly string synonymsResource;
         readonly List<Synonym> synonymsList;
+        public string  lngFile = "";
 
-        public Language()
+        public Language(string translationData = null)
         {
-            LngIsoCode = "en";
 
+
+            LngIsoCode = "en";
             pluralService = PluralizationService.CreateService(new CultureInfo(LngIsoCode));
 
-            var lngFile = Properties.Resources.ResourceManager.GetString("language");
-            labelValues= JsonConvert.DeserializeObject<dynamic>(lngFile, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
+            if (translationData != null)
+                labelValues = JsonConvert.DeserializeObject<dynamic>(translationData, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
+            else
+            {
+                var lngFile = Properties.Resources.ResourceManager.GetString("language");
+                labelValues = JsonConvert.DeserializeObject<dynamic>(lngFile, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
+
+            }
+            
+
 
             var keywordMetaFile = Properties.Resources.ResourceManager.GetString("keywordMetadata");
             keywordMeta = JsonConvert.DeserializeObject<KeywordMetadata>(keywordMetaFile, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
@@ -36,6 +46,9 @@ namespace PxLanguagePlugin
             synonymsList = JsonConvert.DeserializeObject<List<Synonym>>(synonymsResource, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
 
         }
+
+
+
         public dynamic  GetLabelValues()
         {
             return labelValues;
