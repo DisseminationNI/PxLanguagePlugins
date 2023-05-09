@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 using System;
 using PxLanguagePlugin;
+using System.Net;
 
 namespace TestGaPlugin
 {
@@ -29,7 +30,13 @@ namespace TestGaPlugin
         [TestMethod]
         public void TestGetLabelValuesBasic()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language elp = new Language(translation);
+            Language glp = new Language(translation);
             dynamic result = glp.GetLabelValues();
             Assert.IsFalse(result.Equals(null));
         }
@@ -38,7 +45,12 @@ namespace TestGaPlugin
         [TestMethod]
         public void SanitizeBasicNoSanitize()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language glp = new Language(translation);
             string testWordInput = "Is teist é seo";
             string testWordsResult = glp.Sanitize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals(testWordInput));
@@ -47,7 +59,12 @@ namespace TestGaPlugin
         [TestMethod]
         public void SanitizeBasicRemoveCurlyBraces()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language glp = new Language(translation);
             string testWordInput = "Is teist {é} seo";
             string testWordsResult = glp.Sanitize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("Is teist é seo"));
@@ -56,6 +73,11 @@ namespace TestGaPlugin
         [TestMethod]
         public void SanitizeBasicRemoveHtmlStuff()
         {
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
             Language glp = new Language();
             string testWordInput = "Is teist <é> seo";
             string testWordsResult = glp.Sanitize(testWordInput);
@@ -65,7 +87,12 @@ namespace TestGaPlugin
         [TestMethod]
         public void SingularizeBasic()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language glp = new Language(translation);
             string testWordInput = "tithe";
             string testWordsResult = glp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("teach"));
@@ -74,7 +101,12 @@ namespace TestGaPlugin
         [TestMethod]
         public void SingularizeLenition()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language glp = new Language(translation);
             string testWordInput = "dteach";
             string testWordsResult = glp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("teach"));
@@ -83,7 +115,12 @@ namespace TestGaPlugin
         [TestMethod]
         public void SingularizeAspiration()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language glp = new Language(translation);
             string testWordInput = "theach";
             string testWordsResult = glp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("teach"));
@@ -92,7 +129,12 @@ namespace TestGaPlugin
         [TestMethod]
         public void SingularizeIrregular()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language glp = new Language(translation);
             string testWordInput = "mná";
             string testWordsResult = glp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("bean"));
@@ -101,7 +143,12 @@ namespace TestGaPlugin
         [TestMethod]
         public void SingularizeNotFound()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language glp = new Language(translation);
             string testWordInput = "xxxx";
             string testWordsResult = glp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("xxxx"));
@@ -110,7 +157,12 @@ namespace TestGaPlugin
         [TestMethod]
         public void GetLabelsBasic()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language glp = new Language(translation);
             var result = glp.GetLabelValues();
             Assert.IsTrue(result != null);
         }
@@ -118,7 +170,12 @@ namespace TestGaPlugin
         [TestMethod]
         public void SynonymBasic()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language glp = new Language(translation);
             var result = glp.GetSynonyms("sochaí");
             Assert.IsTrue(result.Contains("slua"));
         }
@@ -126,7 +183,12 @@ namespace TestGaPlugin
         [TestMethod]
         public void SynonymNotFound()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language glp = new Language(translation);
             var result = glp.GetSynonyms("xxxxx");
             Assert.IsTrue(result.Count() == 0);
         }
@@ -134,7 +196,12 @@ namespace TestGaPlugin
         [TestMethod]
         public void ExcludedTerms()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language glp = new Language(translation);
             var result = glp.GetExcludedTerms();
             Assert.IsTrue(result.Contains("agus"));
             Assert.IsTrue(result.Contains("do"));
@@ -142,7 +209,12 @@ namespace TestGaPlugin
         [TestMethod]
         public void DoNotAmend()
         {
-            Language glp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language glp = new Language(translation);
             var result = glp.GetDoNotAmend();
             Assert.IsTrue(result.Contains("méid"));
             Assert.IsTrue(result.Contains("mhéid"));
