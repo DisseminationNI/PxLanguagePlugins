@@ -1,6 +1,7 @@
 ﻿using PxLanguagePlugin;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
+using System.Net;
 
 namespace UnitTestEnPlugin
 {
@@ -55,7 +56,12 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SanitizeBasicNoSanitize()
         {
-            Language elp = new Language ();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language elp = new Language (translation);
             string testWordInput = "this is a test";
             string testWordsResult = elp.Sanitize (testWordInput);
             Assert.IsTrue(testWordsResult.Equals(testWordInput));
@@ -64,7 +70,12 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SanitizeBasicRemoveCurlyBraces()
         {
-            Language elp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language elp = new Language(translation);
             string testWordInput = "this is{a}test";
             string testWordsResult = elp.Sanitize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("this is a test"));
@@ -73,7 +84,12 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SanitizeBasicRemoveHtmlStuff()
         {
-            Language elp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language elp = new Language(translation);
             string testWordInput = "this is<a>test";
             string testWordsResult = elp.Sanitize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("this is a test"));
@@ -82,7 +98,12 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SingularizeBasic()
         {
-            Language elp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language elp = new Language(translation);
             string testWordInput = "dogs";
             string testWordsResult = elp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("dog"));
@@ -91,7 +112,12 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SingularizeLessBasic()
         {
-            Language elp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language elp = new Language(translation);
             string testWordInput = "children";
             string testWordsResult = elp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("child"));
@@ -100,7 +126,12 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SingularizeNotFound()
         {
-            Language elp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language elp = new Language(translation);
             string testWordInput = "xxxx";
             string testWordsResult = elp.Singularize(testWordInput);
             Assert.IsTrue(testWordsResult.Equals("xxxx"));
@@ -109,7 +140,12 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void GetLabelsBasic()
         {
-            Language elp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language elp = new Language(translation);
             var result = elp.GetLabelValues();
             Assert.IsTrue(result!=null);
         }
@@ -117,7 +153,12 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SynonymBasic()
         {
-            Language elp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language elp = new Language(translation);
             var result = elp.GetSynonyms ("car");
             Assert.IsTrue(result.Contains("auto"));
         }
@@ -125,7 +166,12 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void SynonymNotFound()
         {
-            Language elp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language elp = new Language(translation);
             var result = elp.GetSynonyms("carxxx");
             Assert.IsTrue(result.Count()==0);
         }
@@ -133,7 +179,12 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void ExcludedTerms()
         {
-            Language elp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language elp = new Language(translation);
             var result = elp.GetExcludedTerms();
             Assert.IsTrue(result.Contains("which"));
             Assert.IsTrue(result.Contains("and"));
@@ -142,7 +193,12 @@ namespace UnitTestEnPlugin
         [TestMethod]
         public void DoNotAmend()
         {
-            Language elp = new Language();
+            string translation;
+            using (WebClient wc = new WebClient())
+            {
+                translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
+            }
+            Language elp = new Language(translation);
             var result = elp.GetDoNotAmend();
             Assert.IsTrue(result.Contains("mean"));
             Assert.IsTrue(result.Contains("state"));

@@ -1,6 +1,8 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Security.Policy;
 using System.Text.RegularExpressions;
 
 namespace PxLanguagePlugin 
@@ -9,16 +11,23 @@ namespace PxLanguagePlugin
     {
         public string LngIsoCode { get; set; } = "ga";
         public bool IsLive { get; set; } = true;
-        readonly dynamic labelValues;
+        public dynamic labelValues;
         readonly KeywordMetadata keywordMeta;
         readonly string synonymsResource;
         readonly List<Synonym> synonymsList;
         readonly Dictionary<string, string> morphology;
+        public string lngFile = "";
 
-        public Language()
+        public Language(string translationData=null)
         {
-            var lngFile = Properties.Resources.ResourceManager.GetString("language");
-            labelValues = JsonConvert.DeserializeObject<dynamic>(lngFile, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
+            if (translationData != null)
+                labelValues = JsonConvert.DeserializeObject<dynamic>(translationData, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
+            else
+            {
+                var lngFile = Properties.Resources.ResourceManager.GetString("language");
+                labelValues = JsonConvert.DeserializeObject<dynamic>(lngFile, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
+
+            }
 
             var keywordMetaFile = Properties.Resources.ResourceManager.GetString("keywordMetadata");
             keywordMeta = JsonConvert.DeserializeObject<KeywordMetadata>(keywordMetaFile, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
@@ -29,6 +38,8 @@ namespace PxLanguagePlugin
             string dictionaryString = Properties.Resources.ResourceManager.GetString("dictionary");
             morphology = JsonConvert.DeserializeObject<Dictionary<string, string>>(dictionaryString);
         }
+
+
         public dynamic GetLabelValues()
         {
             return labelValues;
