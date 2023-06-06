@@ -120,7 +120,7 @@
 		"cancel": "Cancel",
 		"captcha": "Captcha",
 		"categories": "Categories",
-		"census 2021": "Census 2021"
+		"census 2021": "Census 2021",
 		"channel": "Channel",
 		"chart": "Chart",
 		"chart-error-dual-axis": "Invalid number of series for a dual axis chart.",
@@ -405,6 +405,7 @@
 		"n-a": "n/a",
 		"name": "Name",
 		"new": "New",
+		"nisra": "nisra.gov.uk",
 		"new-password": "New password",
 		"new-periods": "New Periods",
 		"newest-first": "Newest First",
@@ -689,7 +690,7 @@
 		"view-source": "View Source",
 		"view-selection": "View Selection",
 		"violet": "Violet",
-		"visual": "NISRA Data Visualisations"
+		"visual": "NISRA Data Visualisations",
 		"weekly": "Weekly",
 		"widget": "Widget",
 		"widgets": "Widgets",
