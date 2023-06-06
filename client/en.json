@@ -120,6 +120,7 @@
 		"cancel": "Cancel",
 		"captcha": "Captcha",
 		"categories": "Categories",
+		"census 2021": "Census 2021"
 		"channel": "Channel",
 		"chart": "Chart",
 		"chart-error-dual-axis": "Invalid number of series for a dual axis chart.",
@@ -688,6 +689,7 @@
 		"view-source": "View Source",
 		"view-selection": "View Selection",
 		"violet": "Violet",
+		"visual": "NISRA Data Visualisations"
 		"weekly": "Weekly",
 		"widget": "Widget",
 		"widgets": "Widgets",
