@@ -20,7 +20,7 @@ namespace PxLanguagePlugin
         readonly string synonymsResource;
         readonly List<Synonym> synonymsList;
         public string  lngFile = "";
-
+		//main language constructor
         public Language(string translationData = null)
         {
 
