@@ -2,6 +2,18 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<Configuration></Configuration>
+	<Company>Central Statistics Office, Ireland</Company>
+	<PackageId>PxLanguagePlugin.ga</PackageId>
+	<Product>Px Language Plugin - Irish</Product>
+	<Copyright>Central Statistics Office, Ireland</Copyright>
+	<Version>4.0.0</Version>
+	<Authors>Central Statistics Office, Ireland</Authors>
+	<SignAssembly>False</SignAssembly>
+	<RepositoryUrl>https://github.com/CSOIreland/Server-API-Library</RepositoryUrl>
+	<PackageReleaseNotes>
+		- [ENHANCEMENT] update to fully .net 6 version
+	</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
