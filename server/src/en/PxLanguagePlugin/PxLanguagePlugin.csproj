@@ -9,7 +9,7 @@
 	<PackageId>PxLanguagePlugin.en</PackageId>
 	<Product>Px Language Plugin - English</Product>
 	<Copyright>Central Statistics Office, Ireland</Copyright>
-	<Version>4.0.0 </Version>
+	<Version>4.1.0 </Version>
 	<Authors>Central Statistics Office, Ireland</Authors>
 	<SignAssembly>False</SignAssembly>
 	<RepositoryUrl>https://github.com/CSOIreland/Server-API-Library</RepositoryUrl>

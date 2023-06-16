@@ -1,4 +1,4 @@
-﻿using PxLanguagePlugin;
+﻿using PxLanguagePlugin.en;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 using System.Net;
@@ -57,7 +57,7 @@ namespace UnitTestEnPlugin
         public void SanitizeBasicNoSanitize()
         {
             string translation;
-            using (WebClient wc = new WebClient())
+            using (WebClient wc = new())
             {
                 translation = wc.DownloadString("https://cdn.jsdelivr.net/gh/CSOIreland/PxLanguagePlugins@2.2.0/server/src/en/PxLanguagePlugin/Resources/language.json");
             }

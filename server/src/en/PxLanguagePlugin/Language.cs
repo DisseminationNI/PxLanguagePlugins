@@ -7,7 +7,7 @@ using System.Globalization;
 using System.Net;
 using Pluralize.NET.Core;
 
-namespace PxLanguagePlugin
+namespace PxLanguagePlugin.en
 {
     public class Language : ILanguagePlugin
     {

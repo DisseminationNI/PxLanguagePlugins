@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 using System;
-using PxLanguagePlugin;
+using PxLanguagePlugin.ga;
 using System.Net;
 
 namespace TestGaPlugin
