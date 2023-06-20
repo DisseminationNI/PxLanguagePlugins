@@ -589,6 +589,7 @@
 		"subscriber-email-unverified": "subscriber-email-unverified",
 		"subscribers": "Subscribers",
 		"subscriptions": "Subscriptions",
+		"sub-title": "CSO's <a href=\"https://github.com/CSOIreland/PxStat#pxstat\" target=\"_blank\">PxStat</a> Open Data Platform",
 		"success": "Success",
 		"success-configuration-reload": "The Configurations have been successfully reloaded.",
 		"success-cache-flush": "The Cache has been flushed successfully.",
