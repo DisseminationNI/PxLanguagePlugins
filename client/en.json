@@ -727,6 +727,7 @@
 		"confirm-delete-classifications": "Are you sure you want to delete all the Classifications for the language <b>{0}</b>?",
 		"confirm-delete-periods": "Are you sure you want to delete all the Periods for the language <b>{0}</b>?",
 		"confirm-delete-statistics": "Are you sure you want to delete all the Statistics for the language <b>{0}</b>?",
+		"confirm-geojson-add": "You are about to add a GeoJSON file that exceeds the recommended max size of {0}MB. </br><b>Confirm</b> to continue, or <b>Cancel.</b>",
 		"confirm-password-reset": "You are about to reset the password for <b>{0}</b>. </br> </br><b>Confirm</b> to continue or <b>Cancel</b>",
 		"confirm-preview": "You are about to preview a large file of <b>{0}</b>. Depending on your device performance, this may cause your browser to become unresponsive. </br>Confirm to continue, or Cancel.",
 		"confirm-update-csv-download": "You are about to download a large file of <b>{0}</b> rows. Depending on your device performance, this may cause your browser to become unresponsive. </br><b>Confirm</b> to continue or <b>Cancel</b> and select a smaller number of periods.",
