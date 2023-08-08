@@ -636,6 +636,7 @@
 		"update": "Update",
 		"update-alert": "Update Alert",
 		"update-copyright": "Update Copyright",
+		"update-config": "You are about to update the application configuration.</br> </br><b>Confirm</b> to continue or <b>Cancel</b><br><br>",
 		"update-date": "Update Date",
 		"update-layer": "Update Layer",
 		"update-language": "Update Language",

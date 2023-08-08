@@ -635,6 +635,7 @@
 		"update": "Nuashonraigh",
 		"update-alert": "Foláireamh faoi Nuashonrú",
 		"update-copyright": "Nuashonraigh Cóipcheart",
+		"#update-config": "You are about to update the application configuration.</br> </br><b>Confirm</b> to continue or <b>Cancel</b><br><br>",
 		"update-date": "Dáta Nuashonraithe",
 		"update-language": "Nuashonraigh Teanga",
 		"update-layer": "Ciseal Nuashonraithe",
