@@ -549,6 +549,7 @@
 		"send-e-mail": "Send E-mail",
 		"send-notification": "Send Notification",
 		"send-reset-link": "Send Reset Link",
+		"sensitive-api-key-message": "This sensitive value cannot be displayed.",
 		"search-for-synonyms": "Search for Synonyms",
 		"series": "Series",
 		"server": "Server",
