@@ -880,7 +880,7 @@
 		"elimination-explanation": "Roghnaigh athróg roghnach le haghaidh gach aicmiú a mharcáil mar an athróg Díothaithe. Aithníonn díothú an athróg chomhiomlán (m.sh. Iomlán, Uile, Luaigh) chun críocha roghnúcháin réamhshocraithe nó meán ríomhairithe amhail céatadáin.",
 		"fluid-time": "An patrún ama céanna a choinneáil nuair a fhoilsítear pointí ama nua, m.sh. taispeáint i gcónaí ar an 5 phointe ama deiridh.",
 		"hide-columns": "Folaigh colúin nuair a bhíonn na hathróga uile mar a chéile.",
-		"link-to-wip": "Cruthaigh giuirléid ó Obair ar Siúl. Beidh sé seo teoranta don fhearann {0} a bhfuil rialú rochtana aige.",
+		"link-to-wip": "Cruthaigh giuirléid ó Obair ar Siúl. Tá rialú rochtana teoranta don fhearann {0}. Cinntigh nach roghnaíonn tú ach na hathróga atá le cur san áireamh sa ghiuirléid.",
 		"map-explanation": "Roghnaigh Léarscáil roghnach in aghaidh Aicmithe geografacha. Cumasaíonn sé seo an tacar sonraí a bhreacadh ar léarscáil.",
 		"map-mode": "Roghnaigh dáileadh coropleth na sonraí.",
 		"save-query": "Cuir le do Cheisteanna Sábháilte chun athrith go tapa arís.",

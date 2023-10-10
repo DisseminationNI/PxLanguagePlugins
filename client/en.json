@@ -806,7 +806,7 @@
 		"elimination-explanation": "Select an optional variable for each classification to be marked as the <b>Elimination</b> variable. Elimination identifies the aggregate variable (e.g. Total, All, State) for the purposes of a default selection or computing averages such as percentages.",
 		"fluid-time": "Maintain the same time pattern when new timepoints get published, e.g. always display the last 5 time points.",
 		"hide-columns": "Hide columns when all variables are the same.",
-		"link-to-wip": "Create a widget from a Work In Progress. This will be restricted to the {0} domain with access control.",
+		"link-to-wip": "Create a widget from a Work In Progress. Access control is restricted to the {0} domain. Ensure to select only the variables to be included in the widget.",
 		"map-explanation": "Select an optional Map against geographical Classifications. This enables plotting the dataset on a map.",
 		"map-mode": "Choose the choropleth distribution of the data. ",
 		"save-query": "Add to your Saved Queries to quickly re-run again.",
