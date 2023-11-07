@@ -5,7 +5,7 @@ using System.Net;
 using System.Security.Policy;
 using System.Text.RegularExpressions;
 
-namespace PxLanguagePlugin 
+namespace PxLanguagePlugin.ga 
 {
     public class Language: ILanguagePlugin
     {

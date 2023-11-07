@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using System.Data.Entity.Design.PluralizationServices;
+using Pluralize.NET;
 using System.Globalization;
 using System.Net;
+using Pluralize.NET.Core;
 
-namespace PxLanguagePlugin
+namespace PxLanguagePlugin.en
 {
     public class Language : ILanguagePlugin
     {
@@ -14,19 +15,19 @@ namespace PxLanguagePlugin
         public bool IsLive { get; set; } = true;
         string ILanguagePlugin.LngIsoCode { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
 
-        readonly PluralizationService pluralService;
+        readonly Pluralizer pluralService;// pluralService;
         internal dynamic labelValues;
         readonly KeywordMetadata keywordMeta;
         readonly string synonymsResource;
         readonly List<Synonym> synonymsList;
-        public string  lngFile = "";
+        public string lngFile = "";
 
         public Language(string translationData = null)
         {
 
 
             LngIsoCode = "en";
-            pluralService = PluralizationService.CreateService(new CultureInfo(LngIsoCode));
+            pluralService = new Pluralizer();// PluralizationService.CreateService(new CultureInfo(LngIsoCode));
 
             if (translationData != null)
                 labelValues = JsonConvert.DeserializeObject<dynamic>(translationData, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
@@ -36,12 +37,12 @@ namespace PxLanguagePlugin
                 labelValues = JsonConvert.DeserializeObject<dynamic>(lngFile, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
 
             }
-            
+
 
 
             var keywordMetaFile = Properties.Resources.ResourceManager.GetString("keywordMetadata");
             keywordMeta = JsonConvert.DeserializeObject<KeywordMetadata>(keywordMetaFile, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
-            
+
             synonymsResource = Properties.Resources.ResourceManager.GetString("synonym");
             synonymsList = JsonConvert.DeserializeObject<List<Synonym>>(synonymsResource, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.None });
 
@@ -49,7 +50,7 @@ namespace PxLanguagePlugin
 
 
 
-        public dynamic  GetLabelValues()
+        public dynamic GetLabelValues()
         {
             return labelValues;
         }
@@ -61,18 +62,16 @@ namespace PxLanguagePlugin
 
         public string Singularize(string word)
         {
-           if (pluralService.IsPlural(word))
-            {
-                return pluralService.Singularize(word);
-            }
-            else return word;
+
+            return pluralService.Singularize(word);
+
         }
 
         public IEnumerable<string> GetSynonyms(string word)
         {
-            var synonym = synonymsList.Where(x=>x.lemma.Equals(word));
-            return synonym.Select(x=>x.match).ToList<string>(); 
-            
+            var synonym = synonymsList.Where(x => x.lemma.Equals(word));
+            return synonym.Select(x => x.match).ToList<string>();
+
         }
 
         public IEnumerable<string> GetExcludedTerms()

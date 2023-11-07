@@ -109,7 +109,11 @@
       "no-geo-url": "A Geo url must be provided when the Geo flag is set",
       "no-variable-code": "Variable missing a variable code",
       "no-variable-value": "Variable missing a variable value",
-	  "no-source-field":"No Source field found for spec {0}"
+	  "no-source-field":"No Source field found for spec {0}",
+	  "end-tag-before-start": "End tag {0} appears before start tag {1}",
+	  "end-tag-not-found": "End tag not found for tag {0}",
+	  "misplaced-start-tag":"Next start tag for {0} appears before the next scheduled end tag",
+	  "overlapping-tags":"Overlapping tags detected"
 
     },
     "duplicate": "You are about to upload a new revision of the existing Table &quot;{0}&quot;. Are you sure?",

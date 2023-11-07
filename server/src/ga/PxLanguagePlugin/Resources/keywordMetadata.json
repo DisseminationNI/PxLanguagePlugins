@@ -52,7 +52,7 @@
     "gcéid",
     "gan"
   ],
-  "regex": "[^a-zA-ZÁÉÍÓÚáéíóú\\d\\s\\-]",
+  "regex": "[^\\p{L}\\d\\s\\-]",
   "inflection": {
     "plural": [ "a", "í", "ta", "a", "anna", "tha", "ach", "each", "aidh", "aigh", "eanna", "eacha", "acha", "the", "adh", "eadh" ],
     "eclipsis": [ "bp", "dt", "gc", "mb", "nd", "ng", "bhf", "n-", "t-" ],

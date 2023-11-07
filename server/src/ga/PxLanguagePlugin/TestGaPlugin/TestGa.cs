@@ -45,6 +45,18 @@ namespace TestGaPlugin
         }
 
         [TestMethod]
+        public void SanitizeWithDiacritics()
+        {
+            Language elp = new Language();
+            string testWordInput = "Bhí mé anseo oiche aréir";
+            string testWordsResult = elp.Sanitize(testWordInput);
+            Assert.IsTrue(testWordsResult.Equals(testWordInput));
+            testWordInput = "Škoda Enyaq iV";
+            testWordsResult = elp.Sanitize(testWordInput);
+            Assert.IsTrue(testWordsResult.Equals(testWordInput));
+        }
+
+        [TestMethod]
         public void SanitizeBasicRemoveCurlyBraces()
         {
             Language glp = new Language();

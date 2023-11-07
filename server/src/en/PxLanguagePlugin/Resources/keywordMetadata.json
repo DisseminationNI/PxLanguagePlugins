@@ -44,9 +44,10 @@
     "have",
     "is",
     "are",
-    "not"
+    "not",
+    "per"
   ],
-  "doNotAmend": ["mean","state"],
-    "regex": "[^a-zA-Z\\d\\s]"
-  
+  "doNotAmend": [ "mean", "state" ],
+  "regex": "[^\\p{L}\\d\\s]"
+
 }
