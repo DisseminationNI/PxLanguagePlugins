@@ -115,6 +115,7 @@
 		"bytes-input": "Bearta ionchurtha",
 		"bytes-output": "Bearta aschurtha",
 		"cache": "Taisce",
+		"#cache-disabled-message": "",
 		"cancel": "Cealaigh",
 		"captcha": "Captcha",
 		"categories": "Catagóirí",

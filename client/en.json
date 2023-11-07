@@ -116,6 +116,7 @@
 		"bytes-input": "Bytes Input",
 		"bytes-output": "Bytes Output",
 		"cache": "Cache",
+		"cache-disabled-message": "Server side cache (MemCacheD) is disabled",
 		"cancel": "Cancel",
 		"captcha": "Captcha",
 		"categories": "Categories",
