@@ -106,7 +106,11 @@
       "no-geo-url": "Ní mór url Geo a sholáthar nuair a bhíonn an bhratach Geo socraithe",
       "no-variable-code": "Athróg in easnamh ar chód athróg",
       "no-variable-value": "Athróg in easnamh ar luach athróg",
-	  "no-source-field":"Tá an fhoinse folamh don toise {0}"
+	  "no-source-field":"Tá an fhoinse folamh don toise {0}",
+	  "end-tag-before-start": "Tá an chlib deiridh {0} le feiceáil roimh an gclib tosaigh {1}",
+	  "end-tag-not-found": "Níor aimsíodh an chlib deiridh don chlib {0}",
+	  "misplaced-start-tag":"Tá an chéad chlib tosaigh eile le haghaidh {0} le feiceáil roimh an gcéad chlib deiridh sceidealaithe eile",
+	  "overlapping-tags":"Braitheadh clibeanna forluiteacha"
     },
     "duplicate": "Tá tú ar tí leasú nua ar an Tábla &quot;{0}&quot;. An bhfuil tú cinnte?",
     "duplicate-different-group": "Tá tú ar tí leasú nua ar an Tábla &quot;{0}&quot;  a uaslódáil agus an grúpa a athrú ó &quot;{1}&quot; go &quot;{2}&quot;. An bhfuil tú cinnte?",
