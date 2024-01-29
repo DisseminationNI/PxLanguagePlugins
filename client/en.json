@@ -816,7 +816,7 @@
 		"hide-columns": "Hide columns when all variables are the same.",
 		"link-to-wip": "Create a widget from a Work In Progress. Access control is restricted to the {0} domain. Ensure to select only the variables to be included in the widget.",
 		"map-explanation": "Select an optional Map against geographical Classifications. This enables plotting the dataset on a map.",
-		"map-mode": "<b>K-means: </b> Separates a range into 'k' groups by repeatedly finding the best centers for the groups based on nearby points.<br><br><b>Quantile:</b> Divides a dataset into portions of the same size, showing how data values spread across those segments.<br><br><b>Equidistant:</b> Evenly spaced intervals or points, maintaining the same distance between each of them throughout.",
+		"map-mode": "<b>Quantile:</b> Divides a dataset into portions of the same size, showing how data values spread across those segments.<br><br><b>Equidistant:</b> Evenly spaced intervals or points, maintaining the same distance between each of them throughout.<br><br><b>k-means: </b> Separates a range into 'k' groups by repeatedly finding the best centers for the groups based on nearby points.",
 		"save-query": "Add to your Saved Queries to quickly re-run again.",
 		"show-percentage": "Show the calculated percentage value in the tooltip.",
 		"sort-chart": "Sort the order of the variables by value.",
