@@ -170,7 +170,14 @@
     "pivoted": "Casadh",
     "unpivoted": "Neamh-casadh",
     "row-limit-exceeded": "Sáraíonn líon na sraitheanna sonraí a iarradh, {0}, an t-uasluach ceadaithe do chomhad XLSX, {1}. Ní mór duit do chuardach a bheachtú chun níos lú sraitheanna a chur ar ais nó formáid eile seachas XLSX a roghnú",
-    "about": "Faoi"
+    "about": "Faoi",
+    "frequency": "Minicíocht",
+    "annual": "Bliantúil",
+    "half-yearly": "Leathbhliantúil",
+    "quarterly": "Ráithiúil",
+    "monthly": "Míosúil",
+    "weekly" : "Seachtainiúil",
+    "daily" : "Laethúil"
   },
   "default": {
     "classification": "Stát",
