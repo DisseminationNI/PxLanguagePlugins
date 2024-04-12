@@ -547,6 +547,8 @@
 		"secure-location": "Áit shlán",
 		"select": "Roghnaigh",
 		"select-all": "Roghnaigh an t-Iomlán",
+		"#select-existing-table": "Select Existing Table",
+		"#select-new -existing-table": "You are about to select a different table and any changes will be lost. <br>Are you sure you want to continue?",
 		"select-uppercase": "ROGHNAIGH",
 		"send-e-mail": "Cuir Ríomhphost",
 		"search-for-synonyms": "Cuardaigh Acrainmneacha",
