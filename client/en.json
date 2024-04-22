@@ -212,6 +212,7 @@
 		"deleted-variables": "Deleted Variables",
 		"deletions": "Deletions",
 		"demo-site-restricted-access": "This action is restricted for the demo site. Please refer to the <a href=\"https://github.com/CSOIreland/PxStat/wiki/Demo-Guidelines\" target=\"_blank\">Demo Guidelines</a> for more details.",
+		"dependency": "Dependency",
 		"description": "Description",
 		"details": "Details",
 		"developer": "Developer",

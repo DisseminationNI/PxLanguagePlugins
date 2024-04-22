@@ -211,6 +211,7 @@
 		"deleted-variables": "Athróga Scriosta",
 		"deletions": "Míreanna scriosta",
 		"demo-site-restricted-access": "Tá an gníomh seo srianta don suíomh taispeána. Déan tagairt le do thoil do <a href=\"https://github.com/CSOIreland/PxStat/wiki/Demo-Guidelines\" target=\"_blank\">Iarratais Taispeána</a> le haghaidh tuilleadh sonraí.",
+		"#dependency": "Dependency",
 		"description": "Cur síos",
 		"details": "Mionsonraí",
 		"developer": "Fobróir",
