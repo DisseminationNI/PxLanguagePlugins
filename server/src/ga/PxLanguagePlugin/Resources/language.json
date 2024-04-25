@@ -179,6 +179,7 @@
     "weekly" : "Seachtainiúil",
     "daily" : "Laethúil"
   },
+  "dependency":"Anailíseach",
   "default": {
     "classification": "Stát",
     "csv": {
@@ -193,6 +194,7 @@
     "subject-area": "n/b",
     "subject-code": "NB",
     "variable": "Stát"
+    
   },
   "email": {
     "summary": "{0} ríomhphost seolta",
