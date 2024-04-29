@@ -1,4 +1,4 @@
-﻿{
+{
   "static": {
     "release": "Release",
     "all-groups": "All Groups"
@@ -165,7 +165,7 @@
     "exceptional": "Exceptional",
     "archived": "Archived",
     "analytical": "Analytical",
-    "experimental": "Experimental",
+    "experimental": "Frontier Series",
     "dependency": "Dependency",
     "language": "Language",
     "iso-code": "ISO Code",
@@ -186,6 +186,7 @@
     "weekly" : "Weekly",
     "daily" : "Daily"
   },
+  "dependency":"Analytical",
   "default": {
     "classification": "State",
     "csv": {
