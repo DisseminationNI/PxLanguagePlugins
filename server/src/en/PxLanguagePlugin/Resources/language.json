@@ -16,6 +16,11 @@
     "update": "No record has been updated. Please review your input.",
     "validation": "Validation failed. Please review your input.",
     "workflow": "The Table &quot;{0}&quot; has a workflow in progress. Please wait for the workflow to complete before uploading a new version.",
+    "workflow-request":
+    {
+      "not-created":"A Workflow Request could not be created",
+      "not-found" : "A Workflow Request for {0} could not be found"
+    },
     "image": "An image could not be created from the resource at {0}",
     "throttled": "The request has been refused because you have exceeded the fair usage policy.",
     "throttled-anonymous": "You may increase your limit by logging on to PxStat.",
@@ -258,7 +263,8 @@
       "delete": "Delete",
       "update-properties": "Update Properties",
       "auto-approve-comment": "Automatic Response",
-      "autoSignoff-comment": "Automatic Signoff"
+      "autoSignoff-comment": "Automatic Signoff",
+      "auto-create-comment":"Workflow Request created automatically"
     },
     "reason": "You received this email because you are part of this Workflow."
   },
