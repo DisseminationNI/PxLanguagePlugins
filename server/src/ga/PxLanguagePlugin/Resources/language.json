@@ -44,7 +44,8 @@
       "inconsistent-map-data": "Tá sonraí léarscáile neamhréireach"
     },
     "release": {
-      "locked": "Tá an scaoileadh in úsáid faoi láthair agus tá sé faoi ghlas"
+      "locked": "Tá an scaoileadh in úsáid faoi láthair agus tá sé faoi ghlas",
+      "not-found" : "Níor aimsíodh an scaoileadh"
     },
     "subscription": {
       "query-threshold": "Baineadh amach an t-uaslíon fiosrúchán maidir le míreanna síntiús.",

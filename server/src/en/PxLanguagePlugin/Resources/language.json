@@ -45,7 +45,8 @@
       "inconsistent-map-data": "Map data is inconsistent"
     },
     "release": {
-      "locked": "The release is currently in use and is locked"
+      "locked": "The release is currently in use and is locked",
+      "not-found" : "The release was not found"
     },
     "subscription": {
       "query-threshold": "The maximum number of subscription snippet queries has been reached.",
