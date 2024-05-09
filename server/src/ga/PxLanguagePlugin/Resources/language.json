@@ -15,7 +15,7 @@
     "schema": "Scéimre API sáraithe. Athbhreithnigh comhréir d’iarratais API.",
     "update": "Níor nuashonraíodh aon taifead. Athbhreithnigh d’ionchur le do thoil.",
     "validation": "Theip ar an mbailíochtú. Athbhreithnigh d’ionchur le do thoil..",
-    "workflow": "Tá sreabhadh oibre ar siúl cheana sa Tábla &quot;{0}&quot;. Fan leis an sreabhadh críochnú roimh leagan nua a uaslódáil.",
+    "workflow": "Tá sreabhadh oibre ar siúl cheana sa Tábla {0}. Fan leis an sreabhadh críochnú roimh leagan nua a uaslódáil.",
     "workflow-request":
     {
       "not-created":"Níorbh fhéidir Iarratas Sreafa Oibre a chruthú",

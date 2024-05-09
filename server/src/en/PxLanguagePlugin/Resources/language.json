@@ -15,7 +15,7 @@
     "schema": "API Schema violated. Please review the syntax of your API request.",
     "update": "No record has been updated. Please review your input.",
     "validation": "Validation failed. Please review your input.",
-    "workflow": "The Table &quot;{0}&quot; has a workflow in progress. Please wait for the workflow to complete before uploading a new version.",
+    "workflow": "The Table {0} has a workflow in progress. Please wait for the workflow to complete before uploading a new version.",
     "workflow-request":
     {
       "not-created":"A Workflow Request could not be created",
