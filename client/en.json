@@ -683,6 +683,7 @@
 		"used-memory": "Used Memory",
 		"user": "User",
 		"user-agent": "User Agent",
+		"user-generate-api-key": "You are about to generate a new API key. This will invalidate any previous API key. <br> <br><b>Confirm</b> to continue or <b>Cancel</b><br><br>",
 		"user-language": "User Language",
 		"user-name": "Username",
 		"user-profile": "User Profile",
