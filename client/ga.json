@@ -166,6 +166,7 @@
 		"copy-to-clipboard": "Cóipeáil go dtí an Gearrthaisce",
 		"copyright": "Cóipcheart",
 		"copyrights": "Cóipchirt",
+		"correlation-id": "Aitheantas comhghaoil",
 		"create": "Cruthaigh",
 		"created-by": "Cruthaithe ag",
 		"created-date": "Dáta a cruthaíodh",
@@ -270,11 +271,6 @@
 		"fluid-time": "Am sreabhach",
 		"flush": "Cart",
 		"follow-us": "Lean muid",
-		"follow-us-github": "Lean muid ar GitHub",
-		"follow-us-instagram": "Lean muid ar Instagram",
-		"follow-us-linkedin": "Lean muid ar LinkedIn",
-		"follow-us-twitter": "Lean muid ar Twitter",
-		"follow-us-youtube": "Lean muid ar YouTube",
 		"footnote": "Fonóta",
 		"forgotten-password": "Dearmad déanta ar phasfhocal",
 		"format": "Formáid",
@@ -362,7 +358,6 @@
 		"left": "Clé",
 		"legend": "Eochair Eolais",
 		"level": "Leibhéal",
-		"like-us-facebook": "Maith linn ar Facebook",
 		"line": "Líne",
 		"link": "Nasc",
 		"link-to-wip": "Nasc go WIP",
@@ -379,6 +374,7 @@
 		"logout": "Sínigh amach",
 		"lookup": "Cuardach",
 		"m2m": "M2M",
+		"machine-name": "Ainm Meaisín",
 		"manage": "Bainistigh",
 		"management-login": "Logáil isteach Bainistíochta",
 		"manage-cookies": "Bainistigh Fianáin",
@@ -941,6 +937,46 @@
 		"signoff": {
 			"published": "Foilsithe",
 			"rejected": "Diúltaithe"
+		}
+	},
+	"footer": {
+		"contact": {
+			"address": "An Phríomh-Oifig Staidrimh, Bóthar na Sceiche Airde, Corcaigh T12 XOOE, Éire"
+		},
+		"social": {
+			"youtube": {
+				"url": "https://www.youtube.com/user/CSOIrelandMedia",
+				"label": "Lean muid ar YouTube"
+			},
+			"twitter": {
+				"url": "https://twitter.com/postaidrimh",
+				"label": "Lean muid ar Twitter"
+			},
+			"facebook": {
+				"url": "https://www.facebook.com/CSOIreland",
+				"label": "Maith linn ar Facebook"
+			},
+			"instagram": {
+				"url": "https://www.instagram.com/csoireland/",
+				"label": "Lean muid ar Instagram"
+			},
+			"linkedin": {
+				"url": "https://ie.linkedin.com/company/csoireland",
+				"label": "Lean muid ar LinkedIn"
+			},
+			"github": {
+				"url": "https://github.com/CSOIreland/PxStat",
+				"label": "Lean muid ar GitHub"
+			}
+		},
+		"links": [
+			{
+				"text": "CSO.ie",
+				"url": "https://www.cso.ie/en/baile/"
+			}
+		],
+		"watermark": {
+			"url": "https://www.cso.ie/en/baile/"
 		}
 	}
 }
