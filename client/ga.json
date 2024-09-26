@@ -93,6 +93,7 @@
 		"auto-sign-off-warning": "Déanfar an <b>Síniú</b> a Fhaomhú <b>go huathoibríoch</b>.",
 		"auto-response-warning": "Déanfar an <b>fhreagairt</b> a Fhaomhú <b>go huathoibríoch</b>.",
 		"available-bytes": "Bearta ar Fáil",
+		"#available-fields": "Available Fields",
 		"awaiting-response": "Ag fanacht le freagairt",
 		"awaiting-sign-off": "Ag fanacht le síniú",
 		"back": "Siar",

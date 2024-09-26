@@ -94,6 +94,7 @@
 		"auto-sign-off-warning": "The <b>Sign-off</b> will be automatically <b>Approved</b>.",
 		"auto-response-warning": "The <b>Response</b> will be automatically <b>Approved</b>.",
 		"available-bytes": "Available Bytes",
+		"available-fields": "Available Fields",
 		"awaiting-response": "Awaiting Response",
 		"awaiting-sign-off": "Awaiting Sign-Off",
 		"back": "Back",
