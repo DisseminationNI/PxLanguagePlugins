@@ -611,6 +611,7 @@
 		"subscriptions": "Síntiúis",
 		"sub-title": "Ardán Sonraí Oscailte <a href=\"https://github.com/CSOIreland/PxStat#pxstat\" target=\"_blank\">PxStat</a> na POS",
 		"success": "D’éirigh leat",
+		"#success-cancel-publish": "The publish has been successfully cancelled.",
 		"success-configuration-reload": "Tá na Cumraíochtaí lódáilte.",
 		"success-cache-flush": "Tá an Taisce carta.",
 		"success-notification-sent": "Tá an fógra seolta go rathúil.",

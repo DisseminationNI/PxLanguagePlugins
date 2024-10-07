@@ -613,6 +613,7 @@
 		"subscriptions": "Subscriptions",
 		"sub-title": "CSO's <a href=\"https://github.com/CSOIreland/PxStat#pxstat\" target=\"_blank\">PxStat</a> Open Data Platform",
 		"success": "Success",
+		"success-cancel-publish": "The publish has been successfully cancelled.",
 		"success-configuration-reload": "The Configurations have been successfully reloaded.",
 		"success-cache-flush": "The Cache has been flushed successfully.",
 		"success-notification-sent": "The notification has been sent successfully.",
