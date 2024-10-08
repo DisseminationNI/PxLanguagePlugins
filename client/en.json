@@ -123,7 +123,7 @@
 		"cache": "Cache",
 		"cache-disabled-message": "Server side cache (MemCacheD) is disabled",
 		"cancel": "Cancel",
-		"cancel-pending-live-warning": "You are about to cancel the pending publish of this release. This release will be made historical and a new WIP will be automatically be created.",
+		"cancel-pending-live-warning": "You are about to cancel the pending publish of this release. This release will be made historical and a new WIP will automatically be created.",
 		"cancel-publish": "Cancel publish",
 		"captcha": "Captcha",
 		"categories": "Categories",

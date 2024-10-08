@@ -122,7 +122,7 @@
 		"cache": "Taisce",
 		"cache-disabled-message": "Tá taisce taobh an fhreastalaí (MemCacheD) díchumasaithe",
 		"cancel": "Cealaigh",
-		"#cancel-pending-live-warning": "You are about to cancel the pending publish of this release. This release will be made historical and a new WIP will be automatically be created.",
+		"#cancel-pending-live-warning": "You are about to cancel the pending publish of this release. This release will be made historical and a new WIP will automatically be created.",
 		"#cancel-publish": "Cancel publish",
 		"captcha": "Captcha",
 		"categories": "Catagóirí",
