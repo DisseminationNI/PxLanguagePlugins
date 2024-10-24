@@ -7,6 +7,7 @@
 		"2fa-verify-info": "Type in the code displayed on your <b>Authenticator App</b> from your device.",
 		"account-locked": "Account locked",
 		"acronym": "Acronym",
+		"accessibility": "Accessibility Statement",
 		"active-connections": "Active Connections",
 		"active-items": "Active Items",
 		"ad": "AD",
@@ -61,7 +62,7 @@
 		"allowed-languages": "Allowed Languages",
 		"alphabetical": "Alphabetical",
 		"amendments": "Amendments",
-		"analytical": "Analytical",
+		"analytical": "Accredited Official Statistics ",
 		"analytics": "Analytics",
 		"analytics-data-not-available": "Data not available when you select a subject or product",
 		"annual": "Annual",
@@ -163,10 +164,11 @@
 		"contact-name": "Contact Name",
 		"contact-phone": "Contact Phone",
 		"consider-rollback": "Please consider the <b>Rollback</b> to re-publish the previous Version where applicable.",
-		"cookie-message": "This website uses cookies to improve your experience.",
+		"cookie-message": "Cookies on the Northern Ireland Statistics and Research Agency website. This website places small amounts of information known as cookies on your device.",
+		"Cookies on the Northern Ireland Statistics and Research Agency website.": "Cookies on the Northern Ireland Statistics and Research Agency website.",
 		"copy": "Copy",
 		"copy-to-clipboard": "Copy to Clipboard",
-		"copyright": "Copyright",
+		"copyright": "© Crown Copyright",
 		"copyrights": "Copyrights",
 		"correlation-id": "Correlation ID",
 		"create": "Create",
@@ -255,25 +257,31 @@
 		"exclude-ip-subnet": "Exclude IP/Subnet",
 		"existing": "Existing",
 		"exit-fullscreen": "Exit Fullscreen",
-		"experimental": "Frontier Series",
+		"experimental": "Official Statistics in Development",
 		"exsting-periods": "Existing Periods",
 		"export-label": "exportLabel",
 		"extend": "Extend",
 		"external": "External",
 		"external-description": "External Description",
 		"false": "False",
+		"FAQ": "FAQs / Training Materials",
 		"favourite-tables": "Favourite Tables",
 		"features": "Features",
 		"file": "file",
 		"file-preview": "File Preview",
 		"filter": "Filter",
+		"Find out more about cookies": "Find out more about cookies",
 		"firebase-authentication-error-account-exists": "Authentication failed. You appear to already have an account. Please try another login provider.",
 		"firebase-authentication-error": "Authentication failed. Please review your input and try again.",
 		"firebase-authentication-link-invalid": "The link has expired or is invalid.",
 		"fluid-time": "Fluid time",
 		"flush": "Flush",
-		"follow-us": "Follow us",
-		"follow-us-youtube": "",
+		"follow-us": "Follow NISRA",
+		"follow-us-github": "Follow us on GitHub",
+		"follow-us-instagram": "Follow us on Instagram",
+		"follow-us-linkedin": "Follow us on LinkedIn",
+		"follow-us-twitter": "Follow us on Twitter",
+		"follow-us-youtube": "Follow us on Youtube",
 		"footnote": "Footnote",
 		"forgotten-password": "Forgotten Password",
 		"format": "Format",
@@ -284,7 +292,7 @@
 		"frequency-code": "Frequency Code",
 		"frequency-value": "Frequency Value",
 		"from": "From",
-		"frontier-statistics": "Frontier Statistics",
+		"frontier-statistics": "Experimental Statistics",
 		"full-download": "Full Download",
 		"generate": "Generate",
 		"geojson": "GeoJSON",
@@ -312,6 +320,7 @@
 		"hits-over-time": "Hits Over Time",
 		"home": "Home",
 		"horizontalBar": "Bar",
+		"I understand": "I understand",
 		"ie-information": "The browser <b>IE (Internet Explorer)</b> is deprecated and no longer fully supported. </br>Please upgrade to a current browser to use the application.",
 		"i-o-byte": "I/O Byte",
 		"i-o-count": "I/O Count",
@@ -361,6 +370,7 @@
 		"left": "Left",
 		"legend": "Legend",
 		"level": "Level",
+		"like-us-facebook": "Like us on Facebook",
 		"line": "Line",
 		"link": "Link",
 		"link-to-wip": "Link to Work In Progress",
@@ -380,7 +390,7 @@
 		"machine-name": "Machine Name",
 		"manage": "Manage",
 		"management-login": "Management login",
-		"manage-cookies": "Manage Cookies",
+		"manage-cookies": "Cookies",
 		"manage-my-account": "Manage My Account",
 		"mandatory": "Mandatory",
 		"manual": "Manual",
@@ -407,6 +417,7 @@
 		"n-a": "n/a",
 		"name": "Name",
 		"new": "New",
+		"nisra": "nisra.gov.uk",
 		"new-password": "New password",
 		"new-periods": "New Periods",
 		"newest-first": "Newest First",
@@ -484,6 +495,7 @@
 		"px": "PX",
 		"pyramid": "Pyramid",
 		"quantile": "Quantile",
+		"quicklink": "Quick links",
 		"qr-code": "QR Code",
 		"radar": "Radar",
 		"reason": "Reason",
@@ -601,7 +613,7 @@
 		"subscriber-email-unverified": "subscriber-email-unverified",
 		"subscribers": "Subscribers",
 		"subscriptions": "Subscriptions",
-		"sub-title": "CSO's <a href=\"https://github.com/CSOIreland/PxStat#pxstat\" target=\"_blank\">PxStat</a> Open Data Platform",
+		"sub-title": "",
 		"success": "Success",
 		"success-configuration-reload": "The Configurations have been successfully reloaded.",
 		"success-cache-flush": "The Cache has been flushed successfully.",
@@ -638,7 +650,7 @@
 		"tracing": "Tracing",
 		"true": "True",
 		"type": "Type",
-		"under-reservation": "Under Reservation",
+		"under-reservation": "Provisional",
 		"unit": "Unit",
 		"unofficial-statistics": "Unofficial Statistics",
 		"un-pivoted": "Un-pivoted",
@@ -704,6 +716,7 @@
 		"view-source": "View Source",
 		"view-selection": "View Selection",
 		"violet": "Violet",
+		"visual": "NISRA Data Visualisations",
 		"weekly": "Weekly",
 		"widget": "Widget",
 		"widgets": "Widgets",
@@ -944,42 +957,56 @@
 	},
 	"footer": {
 		"contact": {
-			"address": "Central Statistics Office, Skehard Road, Cork T12 X00E, Ireland"
+			"address": "NISRA, Colby House, Stranmillis Court, Belfast, BT9 5RR"
 		},
 		"social": {
-			"youtube": {
-				"url": "https://www.youtube.com/user/CSOIrelandMedia",
-				"label": "Follow us on Youtube"
-			},
 			"twitter": {
-				"url": "https://twitter.com/csoIreland",
-				"label": "Follow us on Twitter"
+				"url": "https://twitter.com/NISRA",
+				"label": "Follow us on X"
 			},
 			"facebook": {
-				"url": "https://www.facebook.com/CSOIreland",
+				"url": "https://www.facebook.com/nisra.gov.uk",
 				"label": "Like us on Facebook"
 			},
-			"instagram": {
-				"url": "https://www.instagram.com/csoireland/",
-				"label": "Follow us on Instagram"
+			"youtube": {
+				"url": "https://www.youtube.com/user/nisrastats",
+				"label": "Follow us on Youtube"
 			},
-			"linkedin": {
-				"url": "https://ie.linkedin.com/company/csoireland",
-				"label": "Follow us on LinkedIn"
-			},
-			"github": {
-				"url": "https://github.com/CSOIreland/PxStat",
-				"label": "Follow us on GitHub"
-			}
 		},
 		"links": [
 			{
-				"text": "CSO.ie",
-				"url": "https://www.cso.ie"
+				"text": "NISRA website",
+				"url": "https://nisra.gov.uk"
+			},
+			{
+				"text": "NIDirect",
+				"url": "https://www.nidirect.gov.uk"
+			},
+			{
+				"text": "GOV.uk",
+				"url": "https://www.gov.uk"
+			}
+		],
+		"general": [
+			{
+				"text": "©Crown Copyright",
+				"url": "https://www.nisra.gov.uk/crown-copyright"
+			},
+			{
+				"text": "Terms and conditions",
+				"url": "https://www.nisra.gov.uk/terms-and-conditions"
+			},
+			{
+				"text": "Privacy",
+				"url": "https://www.nisra.gov.uk/nisra-privacy-notice"
+			},
+			{
+				"text": "Accessibility Statement",
+				"url": "https://data.nisra.gov.uk/accessibility.html"
 			}
 		],
 		"watermark": {
-			"url": "https://www.cso.ie"
+			"url": "https://www.nisra.gov.uk"
 		}
 	}
 }
