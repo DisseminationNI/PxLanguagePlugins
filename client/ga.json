@@ -156,7 +156,7 @@
 		"confidential-data-warning": "Tá Sonraí Faoi Rún san Eisiúint seo.",
 		"configuration": "Cumraíocht",
 		"confirm": "Deimhnigh",
-		"onfirm-cancel-publish": "You are about to cancel the pending publish of this release. <br><br><b>Confirm</b> to continue or <b>Cancel</b>.",
+		"confirm-cancel-publish": "Tá tú ar tí foilsiú na heisiúna seo a chur ar ceal. <br><br><b>Deimhnigh</b> chun leanúint ar aghaidh nó <b>Cealaigh</b>.",
 		"confirm-comparison": "<p>Tá tú ar tí eisiúint mhór a chur i gcomparáid.</p> <p>D’fhéadfadh seo do bhrabhsálaí a dhéanamh neamhfhreagrúil. Cliceáil ‘Deimhnigh’ chun leanúint ar aghaidh, nó cliceáil ‘Cealaigh’.</p>",
 		"confirm-flush-cache": "Tá tú ar tí an taisce a chartadh. An bhfuil tú cinnte gur mhaith leat sin a dhéanamh?",
 		"confirm-flush-performance": "Tá tú ar tí an freastalaí a bhánú. An bhfuil tú cinnte faoi dhul ar aghaidh?",
