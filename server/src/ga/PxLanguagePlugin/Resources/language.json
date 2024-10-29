@@ -238,7 +238,7 @@
       "update-1fa": "Athshocraigh pasfhocal le haghaidh {0}",
       "update-2fa": "Athshocraigh 2FA le haghaidh {0}",
       "setup-2fa": "Socrú 2FA le haghaidh {0}",
-      "release-cancelled" : "Bhí an eisiúint sceidealta le haghaidh {0} {1}.{2} curtha ar ceal."
+      "release-cancelled" : "Cuireadh an eisiúint ar feitheamh ar ceal le haghaidh {0} {1}.{2}."
     },
     "subscription": {
       "notification-body": "This is a placeholder for the subscription notification body",
@@ -255,8 +255,8 @@
       "auto-approve-comment": "Freagairt Uathoibríoch",
       "autoSignoff-comment": "Síniú Uathoibríoch",
       "auto-create-comment":"Iarratas Sreafa Oibre cruthaithe go huathoibríoch",
-      "cancel-pending-live": "Tá eisiúint curtha ar ceal",
-      "cancel-pending-live-comment": "Bhí an eisiúint beo seo curtha ar ceal ag {0}."
+      "cancel-pending-live": "Tá an eisiúint ar feitheamh curtha ar ceal",
+      "cancel-pending-live-comment": "Chuir {0} an eisiúint beo ar feitheamh seo ar ceal."
     },
     "reason": "Fuair ​​tú an ríomhphost seo toisc go bhfuil tú mar chuid den Shreabhadh Oibre seo."
   },
