@@ -1000,7 +1000,13 @@
 		}
 	},
 	"quickLinks": {
-		"#visual": "visual.cso.ie",
-		"#cso-main-website": "CSO main website"
+		"#visual": {
+			"text": "visual.cso.ie",
+			"url": "https://visual.cso.ie"
+		},
+		"#cso-main-website": {
+			"text": "CSO main website",
+			"url": "https://www.cso.ie"
+		}
 	}
 }
