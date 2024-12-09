@@ -1000,5 +1000,9 @@
 		"watermark": {
 			"url": "https://www.cso.ie"
 		}
+	},
+	"quickLinks": {
+		"visual": "visual.cso.ie",
+		"cso-main-website": "CSO main website"
 	}
 }

@@ -998,5 +998,9 @@
 		"watermark": {
 			"url": "https://www.cso.ie/en/baile/"
 		}
+	},
+	"quickLinks": {
+		"#visual": "visual.cso.ie",
+		"#cso-main-website": "CSO main website"
 	}
 }
