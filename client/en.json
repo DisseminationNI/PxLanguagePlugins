@@ -598,6 +598,7 @@
 		"source": "Source",
 		"stacked": "Stacked",
 		"stacked-percent": "Stacked percentage",
+		"standard-widget-disabled-wip": "Standard widget disabled for a WIP. Please use the Custom View to create your widget.",
 		"start-typing": "Start typing...",
 		"statistic-label": "Statistic Label",
 		"statistic-error-message": "<b>Statistic Label</b> cannot be the same as <b>Frequency Label</b>",
@@ -1002,13 +1003,9 @@
 		}
 	},
 	"quickLinks": {
-		"visual": {
-			"text": "visual.cso.ie",
-			"url": "https://visual.cso.ie"
-		},
-		"cso-main-website": {
-			"text": "CSO main website",
-			"url": "https://www.cso.ie"
+		"placeholder": {
+			"text": "",
+			"url": ""
 		}
 	}
 }
