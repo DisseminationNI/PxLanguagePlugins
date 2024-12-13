@@ -597,7 +597,7 @@
 		"source": "Foinse",
 		"stacked": "Cruachta",
 		"stacked-percent": "Céatadán cruachta",
-		"#standard-widget-disabled-wip": "Standard widget disabled for a WIP. Please use the Custom View to create your widget.",
+		"#standard-widget-disabled-wip": "Standard widget is disabled for a WIP. Please use the Custom View to create your widget.",
 		"start-typing": "Tosaigh ag clóscríobh...",
 		"statistic-label": "Lipéad Staidrimh",
 		"statistic-error-message": "Ní féidir gur mar a chéile an <b>Lipéad Staidrimh</b> agus an <b>Lipéad Minicíochta</b>",
