@@ -7,7 +7,6 @@
 		"2fa-verify-info": "Type in the code displayed on your <b>Authenticator App</b> from your device.",
 		"account-locked": "Account locked",
 		"acronym": "Acronym",
-		"accessibility": "Accessibility Statement",
 		"active-connections": "Active Connections",
 		"active-items": "Active Items",
 		"ad": "AD",
@@ -62,7 +61,7 @@
 		"allowed-languages": "Allowed Languages",
 		"alphabetical": "Alphabetical",
 		"amendments": "Amendments",
-		"analytical": "Accredited Official Statistics ",
+		"analytical": "Accredited Official Statistics",
 		"analytics": "Analytics",
 		"analytics-data-not-available": "Data not available when you select a subject or product",
 		"annual": "Annual",
@@ -77,6 +76,7 @@
 		"api-read-collection": "API: Read Collection",
 		"api-read-dataset": "API: Read Dataset",
 		"api-running": "API Running",
+		"apply": "Apply",
 		"approve": "Approve",
 		"approved": "Approved",
 		"approver": "Approver",
@@ -95,6 +95,8 @@
 		"auto-sign-off-warning": "The <b>Sign-off</b> will be automatically <b>Approved</b>.",
 		"auto-response-warning": "The <b>Response</b> will be automatically <b>Approved</b>.",
 		"available-bytes": "Available Bytes",
+		"available-fields": "Available Fields",
+		"available-fields-not-included-error": "The following fields were not included and contain multiple variables:",
 		"awaiting-response": "Awaiting Response",
 		"awaiting-sign-off": "Awaiting Sign-Off",
 		"back": "Back",
@@ -121,6 +123,9 @@
 		"cache": "Cache",
 		"cache-disabled-message": "Server side cache (MemCacheD) is disabled",
 		"cancel": "Cancel",
+		"cancelled": "Cancelled",
+		"cancel-pending-live-warning": "You are about to cancel the pending publish of this release. This release will be cancelled and a new WIP will automatically be created.",
+		"cancel-publish": "Cancel publish",
 		"captcha": "Captcha",
 		"categories": "Categories",
 		"channel": "Channel",
@@ -144,6 +149,7 @@
 		"code-value-not-equal": "Code and Value cannot teh ame same.",
 		"codes": "Codes",
 		"colour-scale": "Colour Scale",
+		"columns": "Columns",
 		"comment": "Comment",
 		"compare": "Compare",
 		"compare-release": "Compare Release",
@@ -151,6 +157,7 @@
 		"confidential-data-warning": "This Release contains <b>Confidential Data</b>.",
 		"configuration": "Configuration",
 		"confirm": "Confirm",
+		"confirm-cancel-publish": "You are about to cancel the pending publish of this release. <br><br><b>Confirm</b> to continue or <b>Cancel</b>.",
 		"confirm-comparison": "<p>You are about to compare a large release. This may cause your browser to become unresponsive.</p><p>Confirm to continue, or Cancel.</p>",
 		"confirm-flush-cache": "You are about to flush the cache. </br>Are you sure you want to continue?",
 		"confirm-flush-performance": "You are about to flush the server. </br>Are you sure you want to continue?",
@@ -164,12 +171,10 @@
 		"contact-name": "Contact Name",
 		"contact-phone": "Contact Phone",
 		"consider-rollback": "Please consider the <b>Rollback</b> to re-publish the previous Version where applicable.",
-		"cookie-message": "Cookies on the Northern Ireland Statistics and Research Agency website. This website places small amounts of information known as cookies on your device.",
-		"Cookies on the Northern Ireland Statistics and Research Agency website.": "Cookies on the Northern Ireland Statistics and Research Agency website.",
-		"This website places small amounts of information known as cookies on your device.": "This website places small amounts of information known as cookies on your device.",
+		"cookie-message": "This website uses cookies to improve your experience.",
 		"copy": "Copy",
 		"copy-to-clipboard": "Copy to Clipboard",
-		"copyright": "Crown Copyright",
+		"copyright": "Copyright",
 		"copyrights": "Copyrights",
 		"correlation-id": "Correlation ID",
 		"create": "Create",
@@ -194,6 +199,8 @@
 		"curved-line": "Curved line",
 		"current-version": "Current version",
 		"custom-JSON": "Custom JSON",
+		"custom-view": "Custom View",
+		"custom-view-message": "Customise the output by selecting rows and columns from the available fields.",
 		"daily": "Daily",
 		"dashboard": "Dashboard",
 		"data": "Data",
@@ -222,6 +229,7 @@
 		"details": "Details",
 		"developer": "Developer",
 		"dimension": "Dimension",
+		"dimension-code": "Dimension code",
 		"dimensions": "Dimensions",
 		"direction": "Direction",
 		"doughnut": "Doughnut",
@@ -265,24 +273,18 @@
 		"external": "External",
 		"external-description": "External Description",
 		"false": "False",
-		"FAQ": "FAQs / Training Materials",
 		"favourite-tables": "Favourite Tables",
 		"features": "Features",
 		"file": "file",
 		"file-preview": "File Preview",
 		"filter": "Filter",
-		"Find out more about cookies": "Find out more about cookies",
 		"firebase-authentication-error-account-exists": "Authentication failed. You appear to already have an account. Please try another login provider.",
 		"firebase-authentication-error": "Authentication failed. Please review your input and try again.",
 		"firebase-authentication-link-invalid": "The link has expired or is invalid.",
 		"fluid-time": "Fluid time",
 		"flush": "Flush",
-		"follow-us": "Follow NISRA",
-		"follow-us-github": "Follow us on GitHub",
-		"follow-us-instagram": "Follow us on Instagram",
-		"follow-us-linkedin": "Follow us on LinkedIn",
-		"follow-us-twitter": "Follow us on Twitter",
-		"follow-us-youtube": "Follow us on Youtube",
+		"follow-us": "Follow us",
+		"follow-us-youtube": "",
 		"footnote": "Footnote",
 		"forgotten-password": "Forgotten Password",
 		"format": "Format",
@@ -293,7 +295,7 @@
 		"frequency-code": "Frequency Code",
 		"frequency-value": "Frequency Value",
 		"from": "From",
-		"frontier-statistics": "Experimental Statistics",
+		"frontier-statistics": "Frontier Statistics",
 		"full-download": "Full Download",
 		"generate": "Generate",
 		"geojson": "GeoJSON",
@@ -313,15 +315,16 @@
 		"group-information": "Group Information",
 		"groups": "Groups",
 		"quarterly": "Quarterly",
+		"quick-links": "Quick Links",
 		"half-yearly": "Half Yearly",
 		"hide-columns": "Hide Columns",
 		"hide-password": "Hide Password",
+		"highlight-rows": "Highlight rows",
 		"historical": "Historical",
 		"hits": "Hits",
 		"hits-over-time": "Hits Over Time",
 		"home": "Home",
 		"horizontalBar": "Bar",
-		"I understand": "I understand",
 		"ie-information": "The browser <b>IE (Internet Explorer)</b> is deprecated and no longer fully supported. </br>Please upgrade to a current browser to use the application.",
 		"i-o-byte": "I/O Byte",
 		"i-o-count": "I/O Count",
@@ -371,7 +374,6 @@
 		"left": "Left",
 		"legend": "Legend",
 		"level": "Level",
-		"like-us-facebook": "Like us on Facebook",
 		"line": "Line",
 		"link": "Link",
 		"link-to-wip": "Link to Work In Progress",
@@ -391,7 +393,7 @@
 		"machine-name": "Machine Name",
 		"manage": "Manage",
 		"management-login": "Management login",
-		"manage-cookies": "Cookies",
+		"manage-cookies": "Manage Cookies",
 		"manage-my-account": "Manage My Account",
 		"mandatory": "Mandatory",
 		"manual": "Manual",
@@ -399,6 +401,7 @@
 		"map-widget-disclaimer": "Disclaimer",
 		"maps": "Maps",
 		"max-memory": "Max Memory",
+		"max-number-of-values": "Max number of values",
 		"member-group-update": "Member Group Update",
 		"members": "Members",
 		"memory-available": "Memory Available",
@@ -418,7 +421,6 @@
 		"n-a": "n/a",
 		"name": "Name",
 		"new": "New",
-		"nisra": "nisra.gov.uk",
 		"new-password": "New password",
 		"new-periods": "New Periods",
 		"newest-first": "Newest First",
@@ -457,6 +459,7 @@
 		"open-access-logout-confirm": "You are about to logout. <br><br> <b>Confirm</b> to logout or <b>Cancel</b> to stay logged in.",
 		"open-access-session-warning": "Session Warning",
 		"operating-system": "Operating System",
+		"optional": "Optional",
 		"options": "Options",
 		"orange": "Orange",
 		"os": "OS",
@@ -481,7 +484,7 @@
 		"preview": "Preview",
 		"print": "Print",
 		"privacy": "Privacy",
-		"privacy-agreement": "I undestand how my personal information will be processed and I agree to the <a href=\"#\" name=\"privacy\">privacy</a> statement",
+		"privacy-agreement": "I understand how my personal information will be processed and I agree to the <a href=\"#\" name=\"privacy\">privacy</a> statement",
 		"privilege": "Privilege",
 		"processor-utilisation": "Processor Utilisation",
 		"product": "Product",
@@ -496,7 +499,6 @@
 		"px": "PX",
 		"pyramid": "Pyramid",
 		"quantile": "Quantile",
-		"quicklink": "Quick links",
 		"qr-code": "QR Code",
 		"radar": "Radar",
 		"reason": "Reason",
@@ -536,6 +538,7 @@
 		"requested-date": "Requested Date",
 		"requests-pending": "Requests Pending",
 		"requests-served": "Requests Served",
+		"required": "Required",
 		"reset": "Reset",
 		"reset-2fa": "Reset 2FA",
 		"reset-page": "You are about to reset the page and any changes will be lost. <br>Are you sure you want to continue?",
@@ -596,6 +599,7 @@
 		"source": "Source",
 		"stacked": "Stacked",
 		"stacked-percent": "Stacked percentage",
+		"standard-widget-disabled-wip": "Standard widget is disabled for a WIP. Please use the Custom View to create your widget.",
 		"start-typing": "Start typing...",
 		"statistic-label": "Statistic Label",
 		"statistic-error-message": "<b>Statistic Label</b> cannot be the same as <b>Frequency Label</b>",
@@ -614,8 +618,9 @@
 		"subscriber-email-unverified": "subscriber-email-unverified",
 		"subscribers": "Subscribers",
 		"subscriptions": "Subscriptions",
-		"sub-title": "",
+		"sub-title": "CSO's <a href=\"https://github.com/CSOIreland/PxStat#pxstat\" target=\"_blank\">PxStat</a> Open Data Platform",
 		"success": "Success",
+		"success-cancel-publish": "The publish has been successfully cancelled.",
 		"success-configuration-reload": "The Configurations have been successfully reloaded.",
 		"success-cache-flush": "The Cache has been flushed successfully.",
 		"success-notification-sent": "The notification has been sent successfully.",
@@ -628,6 +633,7 @@
 		"table": "Table",
 		"table-audit": "Table Audit",
 		"table-code": "Table Code",
+		"table-invalid": "The table will be invalid.",
 		"tables": "Tables",
 		"table-language": "Table Language",
 		"table-lookup": "Table Lookup",
@@ -651,7 +657,7 @@
 		"tracing": "Tracing",
 		"true": "True",
 		"type": "Type",
-		"under-reservation": "Provisional",
+		"under-reservation": "Under Reservation",
 		"unit": "Unit",
 		"unofficial-statistics": "Unofficial Statistics",
 		"un-pivoted": "Un-pivoted",
@@ -704,6 +710,7 @@
 		"valid-url": "Please enter a valid URL.",
 		"validate": "Validate",
 		"value": "Value",
+		"variable-code": "Variable code",
 		"variables": "Variables",
 		"variables-no": "Variables No.",
 		"verify": "Verify",
@@ -717,7 +724,6 @@
 		"view-source": "View Source",
 		"view-selection": "View Selection",
 		"violet": "Violet",
-		"visual": "NISRA Data Visualisations",
 		"weekly": "Weekly",
 		"widget": "Widget",
 		"widgets": "Widgets",
@@ -832,12 +838,13 @@
 		"elimination-explanation": "Select an optional variable for each classification to be marked as the <b>Elimination</b> variable. Elimination identifies the aggregate variable (e.g. Total, All, State) for the purposes of a default selection or computing averages such as percentages.",
 		"fluid-time": "Maintain the same time pattern when new timepoints get published, e.g. always display the last 5 time points.",
 		"hide-columns": "Hide columns when all variables are the same.",
+		"highlight-rows": "Highlight a row in the table based on a dimension and variable codes.",
 		"link-to-wip": "Create a widget from a Work In Progress. Access control is restricted to the {0} domain. Ensure to select only the variables to be included in the widget.",
 		"map-explanation": "Select an optional Map against geographical Classifications. This enables plotting the dataset on a map.",
 		"map-mode": "<b>Quantile:</b> Divides a dataset into portions of the same size, showing how data values spread across those segments.<br><br><b>Equidistant:</b> Evenly spaced intervals or points, maintaining the same distance between each of them throughout.<br><br><b>k-means: </b> Separates a range into 'k' groups by repeatedly finding the best centers for the groups based on nearby points.",
 		"save-query": "Add to your Saved Queries to quickly re-run again.",
 		"show-percentage": "Show the calculated percentage value in the tooltip.",
-		"sort-chart": "Sort the order of the variables by value.",
+		"sort-chart": "Sort the order of the variables by value, and optionally set a max number of values to display.",
 		"stacked-chart": "Stack each series to show comparisons between data.",
 		"stacked-chart-percent": "Stack each series as a percentage to show comparisons between data.",
 		"widget-custom-json": "Add advanced options to customise the output. See DataTables/Chart.js/Leaflet",
@@ -958,56 +965,48 @@
 	},
 	"footer": {
 		"contact": {
-			"address": "NISRA, Colby House, Stranmillis Court, Belfast, BT9 5RR"
+			"address": "Central Statistics Office, Skehard Road, Cork T12 X00E, Ireland"
 		},
 		"social": {
+			"youtube": {
+				"url": "https://www.youtube.com/user/CSOIrelandMedia",
+				"label": "Follow us on Youtube"
+			},
 			"twitter": {
-				"url": "https://twitter.com/NISRA",
-				"label": "Follow us on X"
+				"url": "https://twitter.com/csoIreland",
+				"label": "Follow us on Twitter"
 			},
 			"facebook": {
-				"url": "https://www.facebook.com/nisra.gov.uk",
+				"url": "https://www.facebook.com/CSOIreland",
 				"label": "Like us on Facebook"
 			},
-			"youtube": {
-				"url": "https://www.youtube.com/user/nisrastats",
-				"label": "Follow us on Youtube"
+			"instagram": {
+				"url": "https://www.instagram.com/csoireland/",
+				"label": "Follow us on Instagram"
+			},
+			"linkedin": {
+				"url": "https://ie.linkedin.com/company/csoireland",
+				"label": "Follow us on LinkedIn"
+			},
+			"github": {
+				"url": "https://github.com/CSOIreland/PxStat",
+				"label": "Follow us on GitHub"
 			}
 		},
 		"links": [
 			{
-				"text": "NISRA website",
-				"url": "https://nisra.gov.uk"
-			},
-			{
-				"text": "NIDirect",
-				"url": "https://www.nidirect.gov.uk"
-			},
-			{
-				"text": "GOV.uk",
-				"url": "https://www.gov.uk"
-			}
-		],
-		"general": [
-			{
-				"text": "Crown Copyright",
-				"url": "https://www.nisra.gov.uk/crown-copyright"
-			},
-			{
-				"text": "Terms and conditions",
-				"url": "https://www.nisra.gov.uk/terms-and-conditions"
-			},
-			{
-				"text": "Privacy",
-				"url": "https://www.nisra.gov.uk/nisra-privacy-notice"
-			},
-			{
-				"text": "Accessibility Statement",
-				"url": "https://data.nisra.gov.uk/accessibility.html"
+				"text": "CSO.ie",
+				"url": "https://www.cso.ie"
 			}
 		],
 		"watermark": {
-			"url": "https://www.nisra.gov.uk"
+			"url": "https://www.cso.ie"
+		}
+	},
+	"quickLinks": {
+		"placeholder": {
+			"text": "",
+			"url": ""
 		}
 	}
 }
