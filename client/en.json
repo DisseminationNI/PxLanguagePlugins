@@ -393,7 +393,7 @@
 		"machine-name": "Machine Name",
 		"manage": "Manage",
 		"management-login": "Management login",
-		"manage-cookies": "Manage Cookies",
+		"manage-cookies": "Find out more about how we use cookies",
 		"manage-my-account": "Manage My Account",
 		"mandatory": "Mandatory",
 		"manual": "Manual",
@@ -965,42 +965,42 @@
 	},
 	"footer": {
 		"contact": {
-			"address": "Central Statistics Office, Skehard Road, Cork T12 X00E, Ireland"
+			"address": "NISRA, Colby House,Stranmillis Court, Belfast, BT9 5RR"
 		},
 		"social": {
 			"youtube": {
-				"url": "https://www.youtube.com/user/CSOIrelandMedia",
+				"url": "https://www.youtube.com/user/nisrastats",
 				"label": "Follow us on Youtube"
 			},
 			"twitter": {
-				"url": "https://twitter.com/csoIreland",
-				"label": "Follow us on Twitter"
+				"url": "https://twitter.com/NISRA",
+				"label": "Follow us on X"
 			},
 			"facebook": {
-				"url": "https://www.facebook.com/CSOIreland",
+				"url": "https://www.facebook.com/nisra.gov.uk",
 				"label": "Like us on Facebook"
 			},
 			"instagram": {
-				"url": "https://www.instagram.com/csoireland/",
+				"url": "https://www.instagram.com/nisra/",
 				"label": "Follow us on Instagram"
 			},
 			"linkedin": {
-				"url": "https://ie.linkedin.com/company/csoireland",
+				"url": "https://www.linkedin.com/company/northern-ireland-statistics-and-research-agency/",
 				"label": "Follow us on LinkedIn"
 			},
 			"github": {
-				"url": "https://github.com/CSOIreland/PxStat",
+				"url": "https://github.com/DisseminationNI",
 				"label": "Follow us on GitHub"
 			}
 		},
 		"links": [
 			{
-				"text": "CSO.ie",
-				"url": "https://www.cso.ie"
+				"text": "NISRA website",
+				"url": "https://www.nisra.gov.uk"
 			}
 		],
 		"watermark": {
-			"url": "https://www.cso.ie"
+			"url": "https://www.nisra.gov.uk"
 		}
 	},
 	"quickLinks": {
