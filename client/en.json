@@ -968,27 +968,27 @@
 			"address": "NISRA, Colby House,Stranmillis Court, Belfast, BT9 5RR"
 		},
 		"social": {
-			"youtube": {
+			"YouTube": {
 				"url": "https://www.youtube.com/user/nisrastats",
 				"label": "Follow us on Youtube"
 			},
-			"twitter": {
+			"X": {
 				"url": "https://twitter.com/NISRA",
 				"label": "Follow us on X"
 			},
-			"facebook": {
+			"Facebook": {
 				"url": "https://www.facebook.com/nisra.gov.uk",
 				"label": "Like us on Facebook"
 			},
-			"instagram": {
+			"Instagram": {
 				"url": "https://www.instagram.com/nisra/",
 				"label": "Follow us on Instagram"
 			},
-			"linkedin": {
+			"LinkedIn": {
 				"url": "https://www.linkedin.com/company/northern-ireland-statistics-and-research-agency/",
 				"label": "Follow us on LinkedIn"
 			},
-			"github": {
+			"GitHub": {
 				"url": "https://github.com/DisseminationNI",
 				"label": "Follow us on GitHub"
 			}
