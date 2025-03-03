@@ -1004,6 +1004,11 @@
 		}
 	},
 	"quickLinks": {
+			"new-link": {
+			"text": "demo link",
+			"url": "https:www.nisra.gov.uk"
+		},
+		
 		"find-my-area": {
 			"text": "Find my area",
 			"url": "https://explore.nisra.gov.uk/postcode-search/"
