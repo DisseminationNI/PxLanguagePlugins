@@ -1007,6 +1007,31 @@
 		"find-my-area": {
 			"text": "Find my area",
 			"url": "https://explore.nisra.gov.uk/postcode-search/"
+		},
+		"faq": {
+			"text":"Data Portal training materials and FAQs",
+			"url": "https://www.nisra.gov.uk/nisra-data-portal-faqs-and-training-materials"
+		},
+		"census": {
+			"text":"Census 2021 Flexible Table Builder",
+			"url": "https://build.nisra.gov.uk/"
+		},
+		"website": {
+			"text":"NISRA website",
+			"url": "https://www.nisra.gov.uk/"
+		},
+		"visual": {
+			"text":"NISRA Visualisations",
+			"url": "https://visual.nisra.gov.uk/"
+		},
+		"explorer": {
+			"text":"Local Statistics Explorer",
+			"url": "https://explore.nisra.gov.uk/local-stats/"
 		}
+
+
+
+		
+		
 	}
 }
