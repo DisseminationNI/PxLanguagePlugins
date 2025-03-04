@@ -968,18 +968,20 @@
 			"address": "NISRA, Colby House,Stranmillis Court, Belfast, BT9 5RR"
 		},
 		"social": {
-			"YouTube": {
-				"url": "https://www.youtube.com/user/nisrastats",
-				"label": "Follow us on Youtube"
-			},
-			"X": {
-				"url": "https://twitter.com/NISRA",
-				"label": "Follow us on X"
-			},
 			"Facebook": {
 				"url": "https://www.facebook.com/nisra.gov.uk",
 				"label": "Like us on Facebook"
 			},
+			
+			"X": {
+				"url": "https://twitter.com/NISRA",
+				"label": "Follow us on X"
+			},
+			"YouTube": {
+				"url": "https://www.youtube.com/user/nisrastats",
+				"label": "Follow us on Youtube"
+			},
+			
 			"Instagram": {
 				"url": "https://www.instagram.com/nisra/",
 				"label": "Follow us on Instagram"
